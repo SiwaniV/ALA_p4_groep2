@@ -189,31 +189,35 @@
          background-color: #7e8283;
      }
     
-
+/*UITLEG*/
 
     .lamp img {
         height: 20vh;
     }
 
     #blok-1 {
+        margin-top: 5vh;
+        padding: 5vw;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
 
-    .lamp {
-        display: flex;
-       
-        
+    .lamp img {
+   
+             
     }
 
     #uitleg {
-        display: flex;
+      
         background-color: var(--uitlegbackground);
         width: 32vw;
         padding: 1vw;
+        border-radius: 25px;
+      
         
     }
+
+    /*UITLEG eind*/
 
     footer {
         position: absolute;
