@@ -296,6 +296,24 @@
       /*BEREKENING EIND*/
       
 
+      /*TWEEDE BANNER*/
+      #meaning {
+          display: flex;
+          width: 100vw;
+          height: 70vh;
+      }
+
+      #meaning img {
+          width: 50vw;
+      }
+
+      #meaning article:nth-child(2) {
+          background-color: #6dc9e2;
+          width: 50vw;
+      }
+
+      /*TWEEDE BANNER EIND*/
+
 
     footer {
         position: absolute;
@@ -314,6 +332,8 @@
         font-family: var(--varelafont);
         
     }
+
+
 }
 
 
