@@ -99,6 +99,20 @@
         text-align: center;
     }
 
+    .lamp img {
+        height: 20vh;
+    }
+
+    #blok-1 {
+        display: flex;
+    }
+
+    #uitleg {
+        background-color: var(--uitlegbackground);
+        width: 32vw;
+        padding: 1vw;
+    }
+
     footer {
         position: absolute;
         bottom: 0;
