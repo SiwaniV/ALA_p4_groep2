@@ -73,6 +73,7 @@
             <article class="lamp">
                 <img src="lamp.png">
             </article>
+            <span id="Tafels1"></span>
                 <article class="uitleg">
                     <p>Als je een getal 'vermenigvuldigt' of 'maal' optelt, 
                         tel je het een aantal keer bij zichzelf op,<br> bijvoorbeeld 4 vermenigvuldigd
@@ -83,16 +84,40 @@
             </article>
         </section>
 
-        <section id="formule-1">
+        <section class="formule">
             <article>
-                <span id="Tafels1"></span>
                 <h1>De tafel van..</h1><br><br>
                 <input type="number" id=waarde1 name="waarde" title="Type vermenigvuldiger in" placeholder="Vul hier vermenigvuldiger in">
-                <button onclick="tafelReeks()">Genereer</button><br><br>
+                <button id="btn-1" onclick="tafelReeks()">Genereer</button><br><br>
                 <div id="tafels"></div>
             </article>
         </section>
 
+        <section class="blok">
+            <article class="lamp">
+                <img src="lamp.png">
+            </article>
+            <span id="Macht1"></span>
+                <article class="uitleg">
+                    <p>Machten worden gebruikt om berekeningen snel uit te voeren of
+                        formules korter te schrijven.<br> Zo kan je de berekening 7 × 7 × 7 × 7 × 7
+                        korter schrijven als 75.<br> In 75  wordt 7 het grondtal en 5 de
+                        exponent genoemd. Dus: grondtalexponent
+                        Met deze generator typ je een decimaal getal<br> die je grondgetal voorstelt
+                        en krijg je reeks van machten waarin de exponent tot 15 loopt.
+            </article>
+        </section>
+
+        <section class="formule">
+            <article>
+                <span id="Machten1"></span>
+                <h1>De machtreeks van..</h1><br><br>
+                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <button id="btn-2" onclick="machtReeks()">Genereer</button><br> <br>
+                <div id="machten"></div>
+            </article>
+
+        </section>
     </main>
 
 

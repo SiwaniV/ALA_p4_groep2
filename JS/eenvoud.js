@@ -33,8 +33,9 @@ window.onload = function(){
     var values1 = document.getElementById('macht1').value;
     for (var i = 0; i <16; i++) {
     showPower +=  values1 + " tot de macht " + i + " = " + values1 ** i + "<br>";
-    }
+}  
     var p_power = document.getElementById('machten').innerHTML = showPower;
+    
     }
     
     
