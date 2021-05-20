@@ -203,12 +203,13 @@
     }
 
     .lamp img {
-   
+        height: 20vh;
+        margin-top: 2vh;
              
     }
 
     #uitleg {
-      
+        margin-left: 4vw;
         background-color: var(--uitlegbackground);
         width: 32vw;
         padding: 1vw;
@@ -221,7 +222,6 @@
 
     footer {
         position: absolute;
-        bottom: 0;
         display: flex;
         width: 100vw;
         height: 7vh;
