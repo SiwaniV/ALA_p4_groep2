@@ -90,6 +90,11 @@
         background-color: #3f5f6e;
     }
 
+    #banner {
+        width: 100vw;
+        height: 20vh;
+    }
+
     #banner h1, p {
         text-align: center;
     }
