@@ -310,6 +310,14 @@
       #meaning article:nth-child(2) {
           background-color: #6dc9e2;
           width: 50vw;
+          font-family: var(--lexendfont);
+          text-align: center;
+          
+      }
+
+      .text p {
+          justify-content: center;
+          align-items: center;
       }
 
       /*TWEEDE BANNER EIND*/
