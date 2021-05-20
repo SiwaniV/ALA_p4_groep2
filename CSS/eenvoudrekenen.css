@@ -155,16 +155,27 @@
      /*BANNER EIND*/
 
      #menu {
-        display: flex;
-        justify-content: center;
-       padding: 3vw;
+        right: 5vw;
+        top: 50vh;
+        padding: 1vw;
+        position: fixed;
+    
+     }
+
+     #menu ul {
+      background-color: #153747;
+      padding: 0.5vw;
+     
      }
 
      #menu li{
-         float: left;
-         padding: 3vh;
+         text-align: center;
+         padding: 1vh 2vw;
          list-style-type: none;
-         border: 2px solid rgba(124, 114, 114, 0.562);
+         border: 2px solid rgba(118, 114, 124, 0.562);
+         background-color: #d6dee0;
+        
+         
          
      }
 
@@ -173,6 +184,11 @@
         color: black;
         font-family: var(--lexendfont);
      }
+
+     #menu li:hover{
+         background-color: #7e8283;
+     }
+    
 
 
     .lamp img {
@@ -193,7 +209,6 @@
 
     #uitleg {
         display: flex;
-        
         background-color: var(--uitlegbackground);
         width: 32vw;
         padding: 1vw;
