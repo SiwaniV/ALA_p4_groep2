@@ -267,6 +267,14 @@
         font-size: 1.5vw;
     }
 
+    #kwad1 {
+        width: 40vw;
+        height: 5vh;
+        padding: 1vw;
+        border: 2px solid black;
+        font-size: 1.5vw;
+    }
+
       #tafels {
         display: block;
         border:  1px solid black;
@@ -286,6 +294,15 @@
       }
 
       #breuken {
+        display: block;
+        border:  1px solid black;
+        background-color: #f2f2f2;
+        padding: 2vw 3vh;
+        width: 54.5vw;
+        font-family: var(--varelafont);
+      }
+
+      #kwad {
         display: block;
         border:  1px solid black;
         background-color: #f2f2f2;
