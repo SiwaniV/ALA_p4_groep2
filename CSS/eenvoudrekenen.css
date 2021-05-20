@@ -34,7 +34,13 @@
 
     header {
         width: 100vw;
+        height: 14vh;
+        display: flex;
         background-color: var(--headenfoot);
+    }
+
+    #logo img{
+        height: 13vh;
     }
 }
 
