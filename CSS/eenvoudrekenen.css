@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px){}
+
+
+/*TABLET*/
+@media screen and (min-width: 769px) and (max-width: 1200px){}
+
+
+/*SMARTPHONE*/
+@media screen and (min-width: 100px) and (max-width: 769px){}
+
