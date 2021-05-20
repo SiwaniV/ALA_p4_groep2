@@ -42,7 +42,7 @@ window.onload = function(){
     function breukenReeks(){
     var showFracture = '';
     var values2 = document.getElementById('breuk1').value;
-    for (var i = q; i <= values2; i++) {
+    for (var i = 1; i <= values2; i++) {
     showFracture += " 1 " + "/ " + i  + " = " + 1 / i  + "<br>";
     }
     var p_fracture = document.getElementById('breuken').innerHTML = showFracture;
