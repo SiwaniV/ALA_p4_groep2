@@ -27,7 +27,16 @@
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px){
+    body {
+        width: 100vw;
+    }
+
+    header {
+        width: 100vw;
+        background-color: var(--headenfoot);
+    }
+}
 
 
 /*TABLET*/
