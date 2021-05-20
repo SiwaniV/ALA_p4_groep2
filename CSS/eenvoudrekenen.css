@@ -34,12 +34,13 @@
 
     header {
         width: 100vw;
-        height: 14vh;
+        height: 15vh;
         display: flex;
         flex-direction: row;
         background-color: var(--headenfoot);
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
    #logo {
@@ -67,7 +68,7 @@
     }
 
     #knop-2 ul li {
-        padding: 1vh;
+        padding: 2vh;
     }
 
 
@@ -79,6 +80,7 @@
     nav li a{
         text-decoration: none;
         padding: 1vw 2vh;
+        font-size: 1vw;
         color: white;
         font-family: var(--varelafont);
         transition: 1s;
@@ -86,6 +88,24 @@
 
     nav li a:hover{
         background-color: #3f5f6e;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        width: 100vw;
+        height: 7vh;
+        background-color: var(--headenfoot);
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1vw;
+        font-family: var(--varelafont);
+        
     }
 }
 
