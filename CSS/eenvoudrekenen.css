@@ -36,11 +36,34 @@
         width: 100vw;
         height: 14vh;
         display: flex;
+        flex-direction: row;
         background-color: var(--headenfoot);
+        justify-content: center;
+    }
+
+    #logo {
+        flex: 1;
     }
 
     #logo img{
         height: 13vh;
+    }
+
+    #knop-1 ul{
+        display: flex;
+        
+    }
+
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav li a{
+        text-decoration: none;
+        padding: 1vw;
+        color: white;
+        font-family: var(--varelafont);
     }
 }
 
