@@ -30,6 +30,7 @@
 @media screen and (min-width: 1200px){
     body {
         width: 100vw;
+        overflow-x: hidden;
     }
 
     header {
@@ -90,15 +91,65 @@
         background-color: #3f5f6e;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
     /*BANNER*/
 
     #banner {
         width: 100vw;
-        height: 20vh;
+        height: 35vh;
+        background-image: url("https://i.pinimg.com/originals/4b/c6/23/4bc623678abe998ac48de379563f977c.png");
+        background-size: cover;
+        position: relative;
+        display: flex;
+
     }
 
+    #laag {
+        background-color: #df6b2d71;
+        position: absolute;
+        width: 100vw;
+        height: 35vh;
+    }
+
+
+
     #banner h1, p {
+       
         text-align: center;
+        color: black;
+        font-family: var(--lexendfont);
+       
+    }
+
+    #banner article {
+        padding: 3vw 1vh;
+        margin: 1vw 1vh;
+    }
+
+    #info {
+        position: absolute;
+        left: 45vw;
+        bottom: 8vh;
+        background-color: var(--knopbackground);
+        border: 2px solid var(--knopbordercolor);
+        color: var(--knopfontcolor);
+        border-radius: 5%;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block;
+        font-family: var(--lexendfont);
+        cursor: pointer;
+        text-decoration:none;
+    }
+
+    #info:hover {
+        color:#3f5f6e;
+        background-color: #788bc0;
     }
 
      /*BANNER EIND*/
@@ -112,19 +163,22 @@
     #blok-1 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .lamp {
         display: flex;
+       
         
     }
 
     #uitleg {
         display: flex;
+        
         background-color: var(--uitlegbackground);
         width: 32vw;
         padding: 1vw;
+        
     }
 
     footer {
