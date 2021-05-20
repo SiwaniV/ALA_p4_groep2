@@ -42,9 +42,10 @@
         align-items: center;
     }
 
-    #logo {
-        flex: 1;
-    }
+   #logo {
+       position: absolute;
+       left: 2vw;
+   }
 
 
     #logo img{
@@ -52,15 +53,21 @@
     }
 
     #knop-1{
-        display: flex;
-      
+        margin-left: 30vw;
       
     }
    
 
-    #knop-1 ul{
-        display: flex;
+    #knop-1 ul li{
+        position: relative;
+        right: 20vw;
+        float: left;
+        margin-top: 1vh;
         
+    }
+
+    #knop-2 ul li {
+        padding: 1vh;
     }
 
 
@@ -68,11 +75,17 @@
         list-style-type: none;
     }
 
+
     nav li a{
         text-decoration: none;
-        padding: 1vw;
+        padding: 1vw 2vh;
         color: white;
         font-family: var(--varelafont);
+        transition: 1s;
+    }
+
+    nav li a:hover{
+        background-color: #3f5f6e;
     }
 }
 
