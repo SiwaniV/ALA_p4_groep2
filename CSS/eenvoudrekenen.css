@@ -90,6 +90,8 @@
         background-color: #3f5f6e;
     }
 
+    /*BANNER*/
+
     #banner {
         width: 100vw;
         height: 20vh;
@@ -99,15 +101,27 @@
         text-align: center;
     }
 
+     /*BANNER EIND*/
+
+
+
     .lamp img {
         height: 20vh;
     }
 
     #blok-1 {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .lamp {
+        display: flex;
+        
     }
 
     #uitleg {
+        display: flex;
         background-color: var(--uitlegbackground);
         width: 32vw;
         padding: 1vw;
