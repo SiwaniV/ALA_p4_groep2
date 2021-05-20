@@ -305,6 +305,7 @@
 
       #meaning img {
           width: 50vw;
+          height: 70vh;
       }
 
       #meaning article:nth-child(2) {
