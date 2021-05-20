@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script type="text/javascript" src="JS/eenvoud.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="language" content="NL">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,7 +60,8 @@
         <section id="menu">
             <article>
                 <ul>
-                    <li><a href="#">Tafels</a></li>
+                    <h1 class="title">Hoofdstukken</h1>
+                    <li><a href="#Tafels1">Tafels</a></li>
                     <li><a href="#">Machten</a></li>
                     <li><a href="#">Breuken</a></li>
                     <li><a href="#">Machten 2</a></li>
@@ -81,11 +83,12 @@
             </article>
         </section>
 
-        <section>
+        <section id="formule-1">
             <article>
+                <span id="Tafels1"></span>
                 <h1>De tafel van..</h1>
                 <input type="number" id=waarde1 name="waarde" title="Type vermenigvuldiger in" placeholder="Vul hier vermenigvuldiger in">
-                <button onclick="tafelReeks()">Genereer tafels</button><br><br>
+                <button onclick="tafelReeks()">Genereer</button><br><br>
                 <div id="tafels"></div>
             </article>
         </section>
