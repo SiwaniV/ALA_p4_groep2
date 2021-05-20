@@ -119,7 +119,6 @@
 
 
     #banner h1, p {
-       
         text-align: center;
         color: black;
         font-family: var(--lexendfont);
@@ -203,7 +202,7 @@
         height: 20vh;
     }
 
-    #blok-1 {
+    .blok {
         margin-top: 5vh;
         padding: 5vw;
         display: flex;
@@ -216,7 +215,7 @@
              
     }
 
-    #uitleg {
+    .uitleg {
         margin-left: 4vw;
         background-color: var(--uitlegbackground);
         width: 32vw;
@@ -250,9 +249,15 @@
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
+          font-size: 1.5vw;
       }
       #tafels {
         display: block;
+        border:  1px solid black;
+        background-color: #f2f2f2;
+        padding: 2vw 3vh;
+        width: 54.5vw;
+        font-family: var(--varelafont);
       }
       
       button {
