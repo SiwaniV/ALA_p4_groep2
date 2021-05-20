@@ -315,9 +315,10 @@
           
       }
 
-      .text p {
-          justify-content: center;
-          align-items: center;
+      .text {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
       }
 
       /*TWEEDE BANNER EIND*/
