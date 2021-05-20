@@ -162,7 +162,7 @@
      }
 
      #menu ul {
-      background-color: #153747;
+      background-color: var(--knopbackground);
       padding: 1vw;
       border-radius: 25px;
      
