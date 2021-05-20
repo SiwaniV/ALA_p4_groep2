@@ -54,7 +54,7 @@ window.onload = function(){
     var values3 = document.getElementById('kwad1').value;
     for (var i = 1; i <= values3; i++) {
     showSquare += i + " " + "kwadraat" + " = " + i ** 2 + "<br>";
-    }
+    } 
     var p_square = document.getElementById('kwadraat').innerHTML = showSquare;
     
     }
