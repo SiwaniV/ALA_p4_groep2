@@ -39,15 +39,23 @@
         flex-direction: row;
         background-color: var(--headenfoot);
         justify-content: center;
+        align-items: center;
     }
 
     #logo {
         flex: 1;
     }
 
+
     #logo img{
         height: 13vh;
     }
+
+    #knop-1{
+        display: flex;
+      
+    }
+   
 
     #knop-1 ul{
         display: flex;
