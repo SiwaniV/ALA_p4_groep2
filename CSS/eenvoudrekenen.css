@@ -153,16 +153,44 @@
 
      /*BANNER EIND*/
 
+     /*SMALL MENU*/
+
+     #item-ham {
+         position: fixed;
+         right: 4vw;
+         bottom: 1vh;
+     }
+
+     #item-ham h1 {
+         font-size: 3vw;
+         color: white;
+         background-color: #2a6e80;
+         padding: 0.5vw 3.5vh;
+         text-align: center;
+         border: 1px solid var(--knopbackground);
+         border-radius: 80px;
+         transition: 1s;
+     }
+
+     #item-ham h1:hover {
+         color: var(--knopbackground);
+     }
+
+     #item-ham summary{
+        list-style: none;
+        cursor: pointer;
+    }
+
      #menu {
-        right: 5vw;
-        top: 50vh;
+        right: 12vw;
+        top: 65vh;
         padding: 1vw;
         position: fixed;
     
      }
 
      #menu ul {
-      background-color: var(--knopbackground);
+      background-color: var(--knopbordercolor);
       padding: 1vw;
       border-radius: 25px;
      
@@ -174,8 +202,7 @@
          list-style-type: none;
          border: 2px solid rgba(118, 114, 124, 0.562);
          background-color: #d6dee0;
-        
-         
+         transition: 1s;
          
      }
 
@@ -189,12 +216,9 @@
          background-color: #7e8283;
      }
 
-     .title {
-        color: white;
-        text-align: center;
-        font-family: var(--varelafont);
-        padding: 1vw;
-     }
+
+
+     /*SMALL MENU EIND*/
     
 /*UITLEG*/
 
