@@ -574,7 +574,7 @@
          z-index: 1;
      }
 
-     #item-ham h1 {
+     #icon {
          font-size: 3.5vw;
          color: white;
          background-color: #2a6e80;
@@ -585,7 +585,7 @@
          transition: 1s;
      }
 
-     #item-ham h1:hover {
+     #icon:hover {
          color: var(--knopbackground);
      }
 
@@ -596,7 +596,7 @@
 
      #menu {
         right: 12vw;
-        top: 60vh;
+        top: 55vh;
         padding: 2vw;
         position: fixed;
     
@@ -604,9 +604,15 @@
 
      #menu ul {
       background-color: var(--knopbordercolor);
-      padding: 2vw;
+      padding: 1.5vw;
       border-radius: 25px;
      
+     }
+
+     #kop {
+         font-family: var(--varelafont);
+         font-size: 3.5vw;
+         color: white;
      }
 
      #menu li{
