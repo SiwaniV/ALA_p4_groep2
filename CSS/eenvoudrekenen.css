@@ -73,12 +73,12 @@
     }
 
 
-    nav ul {
+    header nav ul {
         list-style-type: none;
     }
 
 
-    nav li a{
+    header nav li a{
         text-decoration: none;
         padding: 1vw 2vh;
         font-size: 1vw;
@@ -87,7 +87,7 @@
         transition: 1s;
     }
 
-    nav li a:hover{
+    header nav li a:hover{
         background-color: #3f5f6e;
     }
 
