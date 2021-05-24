@@ -158,7 +158,7 @@
      #item-ham {
          position: fixed;
          right: 4vw;
-         bottom: 1vh;
+         bottom: 3vh;
      }
 
      #item-ham h1 {
@@ -183,7 +183,7 @@
 
      #menu {
         right: 12vw;
-        top: 65vh;
+        top: 50vh;
         padding: 1vw;
         position: fixed;
     
@@ -215,6 +215,12 @@
      #menu li:hover{
          background-color: #7e8283;
      }
+
+     #kop {
+        font-family: var(--varelafont);
+        font-size: 3.5vw;
+        color: white;
+    }
 
 
 
