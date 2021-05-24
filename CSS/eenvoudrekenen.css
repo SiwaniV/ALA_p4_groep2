@@ -904,13 +904,20 @@
         text-align: center;
     }
 
-    #logo {
-        
+    #logo-2 {
+        position: absolute;
+        left: 4vw;
     }
 
 
     #logo-2 img{
         height: 12vh;
+    }
+
+    #ham-logo  {
+        font-size: 7vw;
+        margin-left: -4vw;
+        margin-top: -1vh;
     }
 
     #menu-2{
@@ -920,6 +927,18 @@
             position: fixed;
             background-color: var(--headenfoot);
       
+    }
+
+    #menu-logo {
+        position: relative;
+        right: 13vw;
+        color: white;
+    }
+
+    #ham-logo {transition: 1s;}
+
+    #ham-logo:hover {
+        color: rgb(54, 82, 158);
     }
    
 
@@ -936,6 +955,21 @@
         padding: 2vh;
     
     }
+
+    #knop-3 {
+        position: relative;
+        left: 30vw;
+    }
+
+    #knop-3 a{
+        font-size: 2vw;
+    }
+
+    #knop-3 li {
+        padding: 1vw;
+    }
+
+
 
 
     header nav ul {
