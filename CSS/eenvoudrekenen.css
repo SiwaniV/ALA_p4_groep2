@@ -156,71 +156,74 @@
      /*SMALL MENU*/
 
      #item-ham {
-         position: fixed;
-         right: 4vw;
-         bottom: 3vh;
-     }
-
-     #item-ham h1 {
-         font-size: 3vw;
-         color: white;
-         background-color: #2a6e80;
-         padding: 0.5vw 3.5vh;
-         text-align: center;
-         border: 1px solid var(--knopbackground);
-         border-radius: 80px;
-         transition: 1s;
-     }
-
-     #item-ham h1:hover {
-         color: var(--knopbackground);
-     }
-
-     #item-ham summary{
-        list-style: none;
-        cursor: pointer;
+        position: fixed;
+        right: 4vw;
+        bottom: 6vh;
+        z-index: 1;
     }
 
-     #menu {
-        right: 12vw;
-        top: 50vh;
-        padding: 1vw;
-        position: fixed;
-    
-     }
-
-     #menu ul {
-      background-color: var(--knopbordercolor);
-      padding: 1vw;
-      border-radius: 25px;
-     
-     }
-
-     #menu li{
-         text-align: center;
-         padding: 2vh 5vw;
-         list-style-type: none;
-         border: 2px solid rgba(118, 114, 124, 0.562);
-         background-color: #d6dee0;
-         transition: 1s;
-         
-     }
-
-     #menu li a{
-        text-decoration: none;
-        color: black;
-        font-family: var(--lexendfont);
-     }
-
-     #menu li:hover{
-         background-color: #7e8283;
-     }
-
-     #kop {
-        font-family: var(--varelafont);
+    #icon {
         font-size: 3.5vw;
         color: white;
+        background-color: #2a6e80;
+        padding: 0.5vw 3.5vh;
+        text-align: center;
+        border: 1px solid var(--knopbackground);
+        border-radius: 80px;
+        transition: 1s;
     }
+
+    #icon:hover {
+        color: var(--knopbackground);
+    }
+
+    #item-ham summary{
+       list-style: none;
+       cursor: pointer;
+   }
+
+    #menu {
+       right: 12vw;
+       top: 55vh;
+       padding: 2vw;
+       position: fixed;
+   
+    }
+
+    #menu ul {
+     background-color: var(--knopbordercolor);
+     padding: 1.5vw;
+     border-radius: 25px;
+    
+    }
+
+    #kop {
+        font-family: var(--varelafont);
+        font-size: 2vw;
+        text-align: center;
+        color: white;
+    }
+
+    #menu li{
+        text-align: center;
+        padding: 2vh 5vw;
+        list-style-type: none;
+        border: 2px solid rgba(118, 114, 124, 0.562);
+        background-color: #d6dee0;
+        transition: 1s;
+        
+    }
+
+    #menu li a{
+       text-decoration: none;
+       color: black;
+       font-family: var(--lexendfont);
+    }
+
+    #menu li:hover{
+        background-color: #7e8283;
+    }
+
 
 
 
