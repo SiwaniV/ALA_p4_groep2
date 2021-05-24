@@ -5,6 +5,7 @@ window.onload = function(){
     machtReeks();
     breukenReeks();
     kwadraatReeks();
+    resetInput();
     }
     
     function tafelReeks(){
@@ -58,4 +59,5 @@ window.onload = function(){
     var p_square = document.getElementById('kwadraat').innerHTML = showSquare;
     
     }
+
     
