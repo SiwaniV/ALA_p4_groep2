@@ -906,7 +906,7 @@
 
     #logo-2 {
         position: absolute;
-        left: 4vw;
+        left: 1vw;
     }
 
 
@@ -921,12 +921,13 @@
     }
 
     #menu-2{
-            right: 12vw;
-            top: 50vh;
-            padding: 2vw;
-            position: fixed;
+            position: absolute;
+            top: 7vh;
+            left: -10vw;
             background-color: var(--headenfoot);
-      
+            z-index: 1;
+            text-align: left;
+
     }
 
     #menu-logo {
@@ -1341,7 +1342,7 @@
 
     footer p {
         color: white;
-        font-size: 1vw;
+        font-size: 2vw;
         margin-left: 1vw;
         font-family: var(--varelafont);
         
