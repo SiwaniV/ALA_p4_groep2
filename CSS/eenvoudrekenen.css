@@ -1179,7 +1179,7 @@
       }
       
       #waarde1 {
-          width: 40vw;
+          width: 45vw;
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
@@ -1187,7 +1187,7 @@
       }
 
       #macht1 {
-        width: 40vw;
+        width: 45vw;
         height: 5vh;
         padding: 1vw;
         border: 2px solid black;
@@ -1195,7 +1195,7 @@
     }
 
     #breuk1 {
-        width: 40vw;
+        width: 45vw;
         height: 5vh;
         padding: 1vw;
         border: 2px solid black;
@@ -1203,7 +1203,7 @@
     }
 
     #kwad1 {
-        width: 40vw;
+        width: 45vw;
         height: 5vh;
         padding: 1vw;
         border: 2px solid black;
@@ -1217,6 +1217,7 @@
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
+        margin-top: 9vh;
       }
 
       #machten {
@@ -1226,6 +1227,7 @@
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
+        margin-top: 9vh;
       }
 
       #breuken {
@@ -1235,6 +1237,7 @@
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
+        margin-top: 9vh;
       }
 
       #kwadraat {
@@ -1244,12 +1247,15 @@
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
+        margin-top: 9vh;
       }
       
       button {
-        
+        position: relative;
+        top: 10vh;
+        right: 53vw;
         border: 2px solid var(--knopbordercolor);
-        width: 15vw;
+        width: 17vw;
         height: 8vh;
         margin-left: 4.5vw;
         background-color: var(--knopbackground);
