@@ -1277,27 +1277,28 @@
       #meaning {
           display: flex;
           width: 100vw;
-          height: 50vh;
+          height: 27vh;
           overflow: hidden;
       }
 
       #meaning p {
         color: white;
         font-size: 1.2vw;
-        padding: 1vw 2vh;
+        margin: 1vh 1vw;
+
     
       }
 
       #meaning-2 p {
         color: white;
         font-size: 1.2vw;
-        padding: 1vw 2vh;
+        margin: 1vh 1vw;
       }
 
       #meaning-2 {
         display: flex;
         width: 100vw;
-        height: 50vh;
+        height: 27vh;
         overflow: hidden;
 
       }
