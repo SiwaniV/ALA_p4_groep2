@@ -1021,6 +1021,7 @@
     #banner h1, p {
         text-align: center;
         color: black;
+        font-size: 0.9em;
         font-family: var(--lexendfont);
        
     }
@@ -1034,8 +1035,8 @@
 
     #info {
         position: absolute;
-        left: 45vw;
-        bottom: 8vh;
+        left: 40vw;
+        bottom: 5vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
@@ -1094,7 +1095,7 @@
 
      #menu ul {
       background-color: var(--knopbordercolor);
-      padding: 1.5vw;
+      padding: 2.5vw;
       border-radius: 25px;
      
      }
@@ -1103,6 +1104,7 @@
          font-family: var(--varelafont);
          font-size: 3.5vw;
          color: white;
+         text-align: center;
      }
 
      #menu li{
@@ -1181,7 +1183,7 @@
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
-          font-size: 1.5vw;
+          font-size: 0.8em;
       }
 
       #macht1 {
@@ -1189,7 +1191,7 @@
         height: 5vh;
         padding: 1vw;
         border: 2px solid black;
-        font-size: 1.5vw;
+        font-size: 0.8em;
     }
 
     #breuk1 {
@@ -1197,7 +1199,7 @@
         height: 5vh;
         padding: 1vw;
         border: 2px solid black;
-        font-size: 1.5vw;
+        font-size: 0.8em;
     }
 
     #kwad1 {
@@ -1205,7 +1207,7 @@
         height: 5vh;
         padding: 1vw;
         border: 2px solid black;
-        font-size: 1.5vw;
+        font-size: 0.8em;
     }
 
       #tafels {
@@ -1245,13 +1247,14 @@
       }
       
       button {
+        
         border: 2px solid var(--knopbordercolor);
-        width: 12vw;
+        width: 15vw;
         height: 8vh;
         margin-left: 4.5vw;
         background-color: var(--knopbackground);
         transition: 1s;
-        font-size: 1.4vw;
+        font-size: 0.8em;
       }
 
  
