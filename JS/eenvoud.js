@@ -9,23 +9,25 @@ window.onload = function(){
     }
     
     function tafelReeks(){
-    /*Variabel voor de uitkomst*/
-        var showTables = '';
+        /*Variabel voor de uitkomst*/
+        var uitkomst = '';
         
         /*Variabel voor de waarde die je intypet*/
-        var values = document.getElementById('waarde1').value;
+        var vermenigvuldigtal = document.getElementById('waarde1').value;
+        if (vermenigvuldigtal == 0) {
+            document.getElementById("tafels").style.display = none;
+        }
+
         /*FOR loop die een rij maakt*/
-        for (var i = 0; i < 11; i++) {
-        /*Formule van hoe je tafels berekent*/
-           showTables += values + " x " + i +" = "+ values*i + "<br>";
+        for (var vermenigvuldiger = 1; vermenigvuldiger <= 10; vermenigvuldiger++) {
+            var product = vermenigvuldiger * vermenigvuldigtal;
+            /*Formule van hoe je tafels berekent*/
+            uitkomst += vermenigvuldiger + " x " + vermenigvuldigtal +" = " + product +  "<br>";
            /*Wanneer input = 0, verschijnt er geen resultaat*/
-           if (values == 0) {
-           document.getElementById("tafels").style.display = none;
-           }
            
         }
         /*variabel die de uitkomst pakt en haalt vervolgens wat er berekend wordt in de uitkomst*/
-    var p_tables = document.getElementById('tafels').innerHTML = showTables;
+        document.getElementById('tafels').innerHTML = uitkomst;
     }
     
     
