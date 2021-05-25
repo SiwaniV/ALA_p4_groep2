@@ -47,20 +47,21 @@ window.onload = function(){
     var uitkomst_breuk = '';
     var noemer = document.getElementById('breuk1').value;
     for (var teller = 1; teller <= noemer; teller++) {
-      
-        uitkomst_breuk += " 1 " + "/ " + teller  + " = " + noemer / teller  + "<br>";
+      var  quotiënt = noemer / teller;
+        uitkomst_breuk += " 1 " + "/ " + teller  + " = " + quotiënt  + "<br>";
     }
     document.getElementById('breuken').innerHTML = uitkomst_breuk;
     
     }
     
     function kwadraatReeks(){
-    var showSquare = '';
-    var values3 = document.getElementById('kwad1').value;
-    for (var i = 1; i <= values3; i++) {
-    showSquare += i + " " + "kwadraat" + " = " + i ** 2 + "<br>";
+    var uitkomst_kwadraat = '';
+    var grondgetal_max = document.getElementById('kwad1').value;
+    for (var start_grondgetal = 1; start_grondgetal <= grondgetal_max; start_grondgetal++) {
+        var product_kwadraat = start_grondgetal ** 2;
+        uitkomst_kwadraat += start_grondgetal + " " + "<sup>2</sup>" + " = " + product_kwadraat + "<br>";
     } 
-    var p_square = document.getElementById('kwadraat').innerHTML = showSquare;
+    document.getElementById('kwadraat').innerHTML = uitkomst_kwadraat;
     
     }
 
