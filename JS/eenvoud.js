@@ -32,12 +32,13 @@ window.onload = function(){
     
     
     function machtReeks() {
-    var showPower = '';
-    var values1 = document.getElementById('macht1').value;
-    for (var i = 0; i <16; i++) {
-    showPower +=  values1 + " tot de macht " + i + " = " + values1 ** i + "<br>";
+    var uitkomst2 = '';
+    var grondgetal = document.getElementById('macht1').value;
+    for (var exponent = 0; exponent<=15; exponent++) {
+        var product_2 = grondgetal ** exponent;
+    uitkomst2 +=  grondgetal + " tot de macht " + exponent + " = " + product_2 + "<br>";
 }  
-    document.getElementById('machten').innerHTML = showPower;
+    document.getElementById('machten').innerHTML = uitkomst2;
     
     }
     
