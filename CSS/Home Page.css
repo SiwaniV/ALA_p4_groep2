@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&family=Varela+Round&display=swap');
+
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --headenfoot: #153747;
+    --bannercolor: #f08348;
+    --bannerfont-color: #34415e;
+    --varelafont: 'Varela Round', sans-serif;
+    --lexendfont: 'Lexend', sans-serif;
+    --knopbackground: #7990e3;
+    --knopbordercolor: #2a6e80;
+    --knopfontcolor: #34415e;
+    --uitlegbackground: #6dc9e2;
+    --secondblockbackgorund: #df6c2d;
+    --outputbackground: #f2f2f2;
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1200px){
+    body {
+        width: 100vw;
+    }
+
+    header {
+        width: 100vw;
+        height: 14vh;
+        display: flex;
+        background-color: var(--headenfoot);
+    }
+
+    #logo img{
+        height: 13vh;
+    }
+}
+
+
+/*TABLET*/
+@media screen and (min-width: 769px) and (max-width: 1200px){}
+
+
+/*SMARTPHONE*/
+@media screen and (min-width: 100px) and (max-width: 769px){}
+
