@@ -973,18 +973,26 @@
         overflow-x: hidden;
     }
 
+    #ham-logo  {
+        display: block;
+    }
+
     #ham-checkbox {
         display: none;
     }
 
+
+    #ham-logo ~ #knop-1 {
+        display: none;
+    }
+
     #ham-checkbox:checked ~ #knop-1 {
-        display: block;
+        display: flex;
         
     }
 
-    
 
-    
+
 
     header {
         width: 100vw;
