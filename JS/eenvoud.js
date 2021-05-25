@@ -32,24 +32,25 @@ window.onload = function(){
     
     
     function machtReeks() {
-    var uitkomst2 = '';
+    var uitkomst_macht = '';
     var grondgetal = document.getElementById('macht1').value;
     for (var exponent = 0; exponent<=15; exponent++) {
         var product_2 = grondgetal ** exponent;
-    uitkomst2 +=  grondgetal + " tot de macht " + exponent + " = " + product_2 + "<br>";
+        uitkomst_macht +=  grondgetal + " tot de macht " + exponent + " = " + product_2 + "<br>";
 }  
-    document.getElementById('machten').innerHTML = uitkomst2;
+    document.getElementById('machten').innerHTML = uitkomst_macht;
     
     }
     
     
     function breukenReeks(){
-    var showFracture = '';
-    var values2 = document.getElementById('breuk1').value;
-    for (var i = 1; i <= values2; i++) {
-    showFracture += " 1 " + "/ " + i  + " = " + 1 / i  + "<br>";
+    var uitkomst_breuk = '';
+    var noemer = document.getElementById('breuk1').value;
+    for (var teller = 1; teller <= noemer; teller++) {
+      
+        uitkomst_breuk += " 1 " + "/ " + teller  + " = " + noemer / teller  + "<br>";
     }
-    var p_fracture = document.getElementById('breuken').innerHTML = showFracture;
+    document.getElementById('breuken').innerHTML = uitkomst_breuk;
     
     }
     
