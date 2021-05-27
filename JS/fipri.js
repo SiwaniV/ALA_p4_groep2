@@ -1,68 +1,21 @@
 
 
 window.onload = function(){
-    tafelReeks();
-    machtReeks();
-    breukenReeks();
-    kwadraatReeks();
-    resetInput();
+    Fibonacci_genereren();
     }
     
-    function tafelReeks(){
-        /*Variabel voor de uitkomst*/
-        var uitkomst = '';
+    function Fibonacci_genereren() {
+        var begin_Fibonacci = [0,1];
         
-        /*Variabel voor de waarde die je intypet*/
-        var vermenigvuldigtal = document.getElementById('waarde1').value;
-        if (vermenigvuldigtal == 0) {
-            document.getElementById("tafels").style.display = none;
+        var element_fibonacci = document.getElementById("element_fib").value;
+       
+        for(var element=begin_Fibonacci.length; element<=element_fibonacci; element++) {
+            begin_Fibonacci[element] = begin_Fibonacci[element-2] + begin_Fibonacci[element-1];
         }
-
-        /*FOR loop die een rij maakt*/
-        for (var vermenigvuldiger = 1; vermenigvuldiger <= 10; vermenigvuldiger++) {
-            var product = vermenigvuldiger * vermenigvuldigtal;
-            /*Formule van hoe je tafels berekent*/
-            uitkomst += vermenigvuldiger + " x " + vermenigvuldigtal +" = " + product +  "<br>";
-           /*Wanneer input = 0, verschijnt er geen resultaat*/
-           
+        document.getElementById('fibonacci-output').innerHTML = begin_Fibonacci;
+        	
         }
-        /*variabel die de uitkomst pakt en haalt vervolgens wat er berekend wordt in de uitkomst*/
-        document.getElementById('tafels').innerHTML = uitkomst;
-    }
     
     
-    function machtReeks() {
-    var uitkomst_macht = '';
-    var grondgetal = document.getElementById('macht1').value;
-    for (var exponent = 0; exponent<=15; exponent++) {
-        var product_2 = grondgetal ** exponent;
-        uitkomst_macht +=  grondgetal + " tot de macht " + exponent + " = " + product_2 + "<br>";
-}  
-    document.getElementById('machten').innerHTML = uitkomst_macht;
-    
-    }
-    
-    
-    function breukenReeks(){
-    var uitkomst_breuk = '';
-    var noemer = document.getElementById('breuk1').value;
-    for (var teller = 1; teller <= noemer; teller++) {
-      var  quotiënt = noemer / teller;
-        uitkomst_breuk += " 1 " + "/ " + teller  + " = " + quotiënt  + "<br>";
-    }
-    document.getElementById('breuken').innerHTML = uitkomst_breuk;
-    
-    }
-    
-    function kwadraatReeks(){
-    var uitkomst_kwadraat = '';
-    var grondgetal_max = document.getElementById('kwad1').value;
-    for (var start_grondgetal = 1; start_grondgetal <= grondgetal_max; start_grondgetal++) {
-        var product_kwadraat = start_grondgetal ** 2;
-        uitkomst_kwadraat += start_grondgetal + " " + "<sup>2</sup>" + " = " + product_kwadraat + "<br>";
-    } 
-    document.getElementById('kwadraat').innerHTML = uitkomst_kwadraat;
-    
-    }
 
     
