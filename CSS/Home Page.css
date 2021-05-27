@@ -91,14 +91,14 @@ header {
     }
 
     #tekstvlak1 p{
-        margin-top: 10vh;
-        z-index: 10;
+       
+       
     }
 
 
-    #achtergrond img{
-       height: 900px;
-       width: 1440px;
+    main{
+        min-height: 500px;
+       background-image: url(../Images/mockup_home.png);
     }
 
 
