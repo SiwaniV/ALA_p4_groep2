@@ -150,7 +150,7 @@
     #banner {
         width: 100vw;
         height: 35vh;
-        background-image: url("../Images_fibonacci_priemgetallen.png");
+        background-image: url(../Images_fibonacci_priemgetallen.png);
         background-size: cover;
         position: relative;
         display: flex;
