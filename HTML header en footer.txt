@@ -3,6 +3,7 @@
                 <a href="#"><img src="Logo_desktop.png"></a>
         </article>
         <article id="menu-logo">
+
             <input type="checkbox" id="ham-checkbox">
             <label id="ham-logo" for="ham-checkbox">☰</label>
             <nav id="knop-1">
@@ -15,7 +16,7 @@
                     <li><a href="#">Spel</a></li>
                 </ul>
             </nav>
-        </details>
+       
         </article>
 
         <article id="log">

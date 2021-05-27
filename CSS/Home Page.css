@@ -28,11 +28,21 @@
 
 /*DESKTOP*/
 @media screen and (min-width: 1200px){    
-    #mobile {
+    #ham-checkbox {
         display: none;
     }
 
-header {
+    #ham-logo {
+        display: none;
+    }
+ 
+
+    #ham-checkbox:checked ~ #knop-1 {
+        display: block;
+    }
+
+
+    header {
         width: 100vw;
         height: 15vh;
         display: flex;
@@ -43,7 +53,13 @@ header {
         text-align: center;
     }
 
-   #logo {
+
+    #knop-1{
+        margin-left: 30vw;
+        margin-left: 30vw;
+    }
+
+    #logo {
        position: absolute;
        left: 2vw;
    }
@@ -53,11 +69,6 @@ header {
         height: 13vh;
     }
 
-    #knop-1{
-        margin-left: 30vw;
-      
-    }
-   
 
     #knop-1 ul li{
         position: relative;
@@ -65,6 +76,34 @@ header {
         float: left;
         margin-top: 1vh;
         
+    }
+
+    #log {
+        display: block;
+        position: relative;
+        left: -2vw;
+        top: -1vh;
+        
+    }
+
+    #log p {
+        margin-top: 3vh;
+    }
+
+    #log a{
+        font-size: 1vw;
+        color: white;
+        text-decoration: none;
+        font-family: var(--varelafont);
+        padding: 1vw 1vh;
+    }
+
+    #log a:hover {
+        background-color: #3f5f6e;
+    }
+
+    #log li {
+        padding: 1vw;
     }
 
     #knop-2 ul li {
