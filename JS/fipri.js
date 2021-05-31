@@ -1,7 +1,7 @@
 
 
 window.onload = function(){
-    Fibonacci_genereren();
+  
     }
     
     function Fibonacci_genereren() {

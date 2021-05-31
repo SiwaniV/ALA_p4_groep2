@@ -170,18 +170,18 @@
         text-align: center;
         color: black;
         font-family: var(--lexendfont);
-       
+    
     }
 
     #banner article {
         padding: 3vw 1vh;
-        margin: 1vw 1vh;
+        margin-top: 2vh;
     }
 
     #info {
         position: absolute;
         left: 45vw;
-        bottom: 8vh;
+        bottom: 9vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
@@ -285,23 +285,6 @@
         font-family: var(--varelafont);
       }
 
-      #breuken {
-        display: block;
-        border:  1px solid black;
-        background-color: #f2f2f2;
-        padding: 2vw 3vh;
-        width: 54.5vw;
-        font-family: var(--varelafont);
-      }
-
-      #kwadraat {
-        display: block;
-        border:  1px solid black;
-        background-color: #f2f2f2;
-        padding: 2vw 3vh;
-        width: 54.5vw;
-        font-family: var(--varelafont);
-      }
       
       button {
         border: 2px solid var(--knopbordercolor);
@@ -523,7 +506,7 @@
 
     #banner {
         width: 100vw;
-        height: 35vh;
+        height: 39vh;
         background-image: url("https://i.pinimg.com/originals/4b/c6/23/4bc623678abe998ac48de379563f977c.png");
         background-size: cover;
         position: relative;
@@ -535,7 +518,7 @@
         background-color: #df6b2d71;
         position: absolute;
         width: 100vw;
-        height: 35vh;
+        height: 39vh;
     }
 
 
@@ -549,7 +532,7 @@
 
     #banner article {
         padding: 3vw 1vh;
-        margin: 1vw 1vh;
+        margin-top: 6vh;
     }
 
     
@@ -557,7 +540,7 @@
     #info {
         position: absolute;
         left: 45vw;
-        bottom: 8vh;
+        bottom: 5vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
@@ -1052,14 +1035,14 @@
 
     #banner article {
         padding: 3vw 1vh;
-        margin: 1vw 1vh;
+        margin-top: 6vh;
     }
 
     
 
     #info {
         position: absolute;
-        left: 40vw;
+        left: 43.5vw;
         bottom: 5vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
