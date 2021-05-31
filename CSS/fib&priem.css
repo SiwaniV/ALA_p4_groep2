@@ -190,7 +190,7 @@
     #info {
         position: absolute;
         left: 45vw;
-        bottom: 9vh;
+        bottom: 10vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
