@@ -5,15 +5,15 @@ window.onload = function(){
     }
     
     function Fibonacci_genereren() {
-        var begin_Fibonacci = [0,1];
-        
-        var element_fibonacci = document.getElementById("input_fib").value;
-       
-        for(var getal=begin_Fibonacci.length; getal<=element_fibonacci; getal++) {
-            begin_Fibonacci[getal] = begin_Fibonacci[getal-2] + begin_Fibonacci[getal-1];
+        var fibonacci_begin = [0,1];
+        //var num = prompt("Enter the limit to generate fibonacci no",10);
+        var input_getal = document.getElementById("input_fib").value;
+        //console.log(x);
+        for(var getal=fibonacci_begin.length; getal<=input_getal; getal++) {
+            fibonacci_begin[getal] = fibonacci_begin[getal-2] + fibonacci_begin[getal-1];
         }
-        document.getElementById('fibonacci-output').innerHTML = begin_Fibonacci;
-        	
+        document.getElementById('fibonacci-output').innerHTML = fibonacci_begin;
+        
         }
     
     
