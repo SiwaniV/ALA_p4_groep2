@@ -1146,19 +1146,19 @@
   }
   
   #input_fib {
-      width: 40vw;
-      height: 5vh;
-      padding: 1vw;
-      border: 2px solid black;
-      font-size: 1.5vw;
-  }
-
-  #getal_priem {
-    width: 40vw;
+    width: 45vw;
     height: 5vh;
     padding: 1vw;
     border: 2px solid black;
-    font-size: 1.5vw;
+    font-size: 0.8em;
+  }
+
+  #getal_priem {
+    width: 45vw;
+    height: 5vh;
+    padding: 1vw;
+    border: 2px solid black;
+    font-size: 0.8em;
 }
 
 
@@ -1169,6 +1169,7 @@
     padding: 2vw 3vh;
     width: 54.5vw;
     font-family: var(--varelafont);
+    margin-top: 9vh;
   }
 
   #priemgetal-output{
@@ -1178,12 +1179,13 @@
     padding: 2vw 3vh;
     width: 54.5vw;
     font-family: var(--varelafont);
+    margin-top: 9vh;
   }
 
   
   button {
     position: relative;
-    top: 16vh;
+    top: 10vh;
     right: 53vw;
     border: 2px solid var(--knopbordercolor);
     width: 17vw;
@@ -1206,11 +1208,10 @@
 
       /*TWEEDE BANNER*/
       #meaning {
-          margin-top: 9vh;
-          display: flex;
-          width: 100vw;
-          height: 27vh;
-          overflow: hidden;
+        display: flex;
+        width: 100vw;
+        height: 27vh;
+        overflow: hidden;
       }
 
       #meaning p {
@@ -1225,7 +1226,8 @@
 
       #meaning img {
           width: 50vw;
-          height: 50vh;
+          height: 30vh;
+     
       }
 
 
