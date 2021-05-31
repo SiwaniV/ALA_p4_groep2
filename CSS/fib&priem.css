@@ -322,26 +322,14 @@
         color: white;
       }
 
-      #meaning-2 p {
-        color: white;
-      }
-
-      #meaning-2 {
-        display: flex;
-        width: 100vw;
-        height: 70vh;
-
-      }
+  
 
       #meaning img {
           width: 50vw;
           height: 70vh;
       }
 
-      #meaning-2 img {
-        width: 50vw;
-        height: 70vh;
-    }
+  
 
       #meaning article:nth-child(2) {
           background-color: var(--knopfontcolor);
@@ -352,14 +340,6 @@
           
       }
 
-      #meaning-2 article:nth-child(2) {
-        background-color: var(--bannercolor);
-        width: 50vw;
-        font-family: var(--lexendfont);
-        text-align: center;
-    
-        
-    }
 
       .text {
           display: flex;
