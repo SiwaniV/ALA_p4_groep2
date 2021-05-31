@@ -31,6 +31,10 @@
     overflow-x: scroll;
 }
 
+#meaning {
+  
+    background-color: #2a6e80;
+}
 
 
 
@@ -316,6 +320,7 @@
           display: flex;
           width: 100vw;
           height: 70vh;
+      
       }
 
       #meaning p {
