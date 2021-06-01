@@ -105,10 +105,20 @@
 
         <section class="formule">
             <article>
-                <h1>De tafel van..</h1><br><br>
-                <input type="number" id=waarde1 name="waarde" title="Type vermenigvuldiger in" placeholder="Vul hier vermenigvuldiger in">
-                <button id="btn-1" onclick="tafelReeks()">Genereer</button><br><br>
-                <article id="tafels"></article>
+                <form onsubmit="return genereerTafel();">
+                    <p>
+                        <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                    </p>
+                    <p>
+                        <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                    </p>
+                    <p>
+                        <button type="submit">Genereer tafel</button>
+                    </p>
+                    <p>
+                        <textarea readonly id="tafels"></textarea>
+                    </p>
+                </form>
             </article>
         </section>
 
@@ -133,7 +143,7 @@
         <section class="formule">
             <article>
                 <h1>De machtreeks van..</h1><br><br>
-                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="5">
                 <button id="btn-2" onclick="machtReeks()">Genereer</button><br> <br>
                 <article id="machten"></article>
             </article>
@@ -184,7 +194,7 @@ ingevulde getal loopt.
         <section class="formule">
             <article>
                 <h1>De breukenreeks van..</h1><br><br>
-                <input type="number" id=breuk1 name="breuk" title="Type de noemer in" placeholder="Vul de noemer in">
+                <input type="number" id=breuk1 name="breuk" title="Type de noemer in" placeholder="5">
                 <button onclick="breukenReeks()">Genereer</button><br> <br>
                 <article id="breuken"></article>
             </article>
@@ -212,7 +222,7 @@ ingevulde getal loopt.
         <section class="formule">
             <article>
                 <h1>De machtenreeks van..</h1><br><br>
-                <input type="number" id=kwad1 name="kwad" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <input type="number" id=kwad1 name="kwad" title="Type de grondgetal in" placeholder="5">
                 <button onclick="kwadraatReeks()">Genereer</button><br> <br>
                 <article id="kwadraat"></article>
             </article>
