@@ -1337,13 +1337,31 @@
         
       }
       
-      #waarde1 {
+      #tafel-vermenigvuldigtal {
+          margin-right: 44vw;
           width: 45vw;
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
           font-size: 0.8em;
       }
+
+      #tafel-max-vermenigvuldiger {
+        margin-right: 44vw;
+        margin-top: 1vh;
+        width: 45vw;
+        height: 5vh;
+        padding: 1vw;
+        border: 2px solid black;
+        font-size: 0.8em;
+    }
+
+    #tafel-knop {
+        position: relative;
+        left: -39vw;
+        top: 1vh;
+
+    }
 
       #macht1 {
         width: 45vw;
@@ -1387,6 +1405,8 @@
         width: 54.5vw;
         font-family: var(--varelafont);
         margin-top: 9vh;
+        overflow-y: scroll;
+        height: 15vh;
       }
 
       #breuken {
@@ -1397,6 +1417,8 @@
         width: 54.5vw;
         font-family: var(--varelafont);
         margin-top: 9vh;
+        overflow-y: scroll;
+        height: 15vh;
       }
 
       #kwadraat {
@@ -1407,6 +1429,8 @@
         width: 54.5vw;
         font-family: var(--varelafont);
         margin-top: 9vh;
+        overflow-y: scroll;
+        height: 15vh;
       }
       
       button {
