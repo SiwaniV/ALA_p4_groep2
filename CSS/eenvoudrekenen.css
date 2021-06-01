@@ -27,7 +27,9 @@
 }
 
 
-
+#kop h1{
+    color: var(--headenfoot);
+}
 
 
 
@@ -249,7 +251,7 @@
         font-family: var(--varelafont);
         font-size: 2vw;
         text-align: center;
-        color: white;
+        
     }
 
     #menu li{
@@ -736,7 +738,6 @@
      #kop {
          font-family: var(--varelafont);
          font-size: 3.5vw;
-         color: white;
      }
 
      #menu li{
@@ -1262,7 +1263,6 @@
      #kop {
          font-family: var(--varelafont);
          font-size: 3.5vw;
-         color: white;
          text-align: center;
      }
 
