@@ -1,8 +1,8 @@
 
 
 window.onload = function(){
-    tafelReeks();
-    machtReeks();
+
+  
     breukenReeks();
     kwadraatReeks();
     resetInput();

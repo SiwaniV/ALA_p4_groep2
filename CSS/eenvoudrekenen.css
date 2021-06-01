@@ -325,6 +325,7 @@
       }
       
       #tafel-vermenigvuldigtal {
+          margin-right: 50vw;
           width: 40vw;
           height: 5vh;
           padding: 1vw;
@@ -333,12 +334,19 @@
       }
 
       #tafel-max-vermenigvuldiger{
+        margin-right: 50vw;
         width: 40vw;
         height: 5vh;
         margin-top: 1vh;
         padding: 1vw;
         border: 2px solid black;
         font-size: 1.5vw;
+      }
+
+      #tafel-knop {
+          position: relative;
+          top: -14vh;
+          left: 5vw;
       }
 
       #macht1 {

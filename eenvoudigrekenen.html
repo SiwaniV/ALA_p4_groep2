@@ -105,15 +105,15 @@
 
         <section class="formule">
             <article>
-                <form onsubmit="return genereerTafel();">
+                <form onsubmit="return tafelReeks()">
                     <p>
-                        <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                        <input id="tafel-vermenigvuldigtal" value="5" type="number" title="Type het vermenigvuldgetal in">
                     </p>
                     <p>
-                        <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                        <input id="tafel-max-vermenigvuldiger" value="10" type="number" title="Type hier de vermenigvuldiger in">
                     </p>
                     <p>
-                        <button type="submit">Genereer tafel</button>
+                        <button type="submit" id="tafel-knop">Genereer tafel</button>
                     </p>
                     <p>
                         <textarea readonly id="tafels"></textarea>
@@ -145,7 +145,7 @@
                 <h1>De machtreeks van..</h1><br><br>
                 <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="5">
                 <button id="btn-2" onclick="machtReeks()">Genereer</button><br> <br>
-                <article id="machten"></article>
+                <textarea readonly id="machten"></textarea>
             </article>
         </section>
         <!--MACHTENREEKS EIND-->
