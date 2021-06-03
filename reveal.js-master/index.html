@@ -16,6 +16,33 @@
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
 
+<header id="desktop">
+	<article id="logo">
+			<a href="#"><img src="Logo_desktop.png"></a>
+	</article>
+	<article id="menu-logo">
+
+		<input type="checkbox" id="ham-checkbox">
+		<label id="ham-logo" for="ham-checkbox">☰</label>
+		<nav id="knop-1">
+			<ul id="menu-2">
+				<li><a href="#">Presentatie</a></li>
+				<li><a href="#">Eenvoudig rekenen</a></li>
+				<li><a href="#">Fibonacci/priemgetallen</a></li>
+				<li><a href="#">Pittig rekenen</a></li>
+				<li><a href="#">Dobbelstenen</a></li>
+				<li><a href="#">Spel</a></li>
+			</ul>
+		</nav>
+   
+	</article>
+
+	<article id="log">
+		<p><a href="#">Inloggen</a></li><br></p>
+		<p><a href="#">Aanmelden</a></li></p>
+	</article>
+</header>
+
 <body>
 	<div class="reveal">
 		<div class="slides">
@@ -85,5 +112,9 @@
 		});
 	</script>
 </body>
+
+<footer>
+	<article><p>©Algebra Smart</p></article>
+</footer>
 
 </html>

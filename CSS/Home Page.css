@@ -26,6 +26,13 @@
 
 }
 
+main {
+    
+    height: 100%;
+    position: relative;
+}
+
+
 /*DESKTOP*/
 @media screen and (min-width: 1200px){    
     #ham-checkbox {
