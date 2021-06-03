@@ -41,6 +41,10 @@
         overflow-x: hidden;
     }
 
+    #mobile-logo {
+        display: none;
+    }
+
     #ham-checkbox {
         display: none;
     }
@@ -523,6 +527,10 @@
     body {
         width: 100vw;
         overflow-x: hidden;
+    }
+
+    #mobile-logo {
+        display: none;
     }
 
     #ham-checkbox {
@@ -1019,6 +1027,15 @@
         width: 100vw;
         overflow-x: hidden;
     }
+
+    #mobile-logo {
+        display: block;
+    }
+
+    #desktop-logo {
+        display: none;
+    }
+
 
     #ham-logo  {
         display: block;
