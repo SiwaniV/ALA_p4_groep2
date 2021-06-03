@@ -201,7 +201,8 @@
 
     .user-icon{
         position: relative;
-        top: 5vh;
+        top: 6.4vh;
+        right: -0.86vw;
         height: 1.84vh;
         border: 1px solid black;
         color: var(--bannerfont-color);
@@ -209,10 +210,10 @@
     }
 
     .lock-icon {
+        position: relative;
+        right: -0.95vw;
         color: var(--bannerfont-color);
-    
         height: 1.89vh;
-
         padding: 1vw;
         border: 1px solid black;
     }
