@@ -241,6 +241,31 @@
         background-color: #3f5f6e;
     }
 
+    #tekstvlak1 p{
+        color: white;
+        padding-top: 15vh;
+        font-size: 20px;
+        padding-left: 10vw;
+        font-family: var(--lexendfont);
+     }
+ 
+     #tekstvlak2 p{
+        color: white;
+        font-size: 20px;
+        padding-left: 77vw;
+        font-family: var(--lexendfont);
+        padding-top: 40vh;
+     }
+ 
+     main{
+         min-height: 800px;
+         background-image: url(../Images/mockup_home.png);
+         background-size: contain;
+         background-repeat: no-repeat;
+         background-position: center top;
+         min-width: 900px;
+     }
+
 
     footer {
         position: absolute;
