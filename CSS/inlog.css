@@ -202,7 +202,7 @@
         position: relative;
         right: 15vw;
         height: 1.89vh;
-        top: 9.1vh;
+        top: 8.5vh;
         border: 1px solid black;
         color: var(--bannerfont-color);
         padding: 1vw;
@@ -213,9 +213,13 @@
         position: relative;
         height: 1.89vh;
         right: 15vw;
-        top: 9.15vh;
+        top: 8.5vh;
         padding: 1vw;
         border: 1px solid black;
+    }
+
+    #link-aanmeld a{
+        text-decoration: none;
     }
 
        /*INLOG FORMULIER EIND*/
