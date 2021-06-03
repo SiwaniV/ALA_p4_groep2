@@ -196,13 +196,13 @@
 
     #log_in_btn:hover {
         background-color: #df6c2d;
+        cursor: pointer;
     }
 
     .user-icon{
         position: relative;
-        right: 15vw;
-        height: 1.89vh;
-        top: 8.5vh;
+        top: 5vh;
+        height: 1.84vh;
         border: 1px solid black;
         color: var(--bannerfont-color);
         padding: 1vw;
@@ -210,16 +210,21 @@
 
     .lock-icon {
         color: var(--bannerfont-color);
-        position: relative;
+    
         height: 1.89vh;
-        right: 15vw;
-        top: 8.5vh;
+
         padding: 1vw;
         border: 1px solid black;
     }
 
-    #link-aanmeld a{
+    #link-aanmeld{
+        color: blue;
         text-decoration: none;
+        font-family: var(--lexendfont);
+    }
+
+    #link-aanmeld:hover {
+        color: rgb(112, 112, 173);
     }
 
        /*INLOG FORMULIER EIND*/
