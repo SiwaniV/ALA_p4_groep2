@@ -151,12 +151,20 @@
     /*INLOG FORMULIER START*/
 
     #formulier {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
         width: 40vw;
+        margin-top: 3vh;
     }
 
     #formulier form{
+        height: 50vh;
         border: 1px solid black;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
         padding: 1vw 1vh;
         margin: 1vw 1vh;
     }
@@ -172,11 +180,17 @@
         font-size: 2em;
     }
 
+    #log_in_btn {
+        width: 10vw;
+        height: 5vh;
+    }
+
        /*INLOG FORMULIER EIND*/
 
 
     footer {
         position: absolute;
+        bottom: 0;
         display: flex;
         width: 100vw;
         height: 7vh;
