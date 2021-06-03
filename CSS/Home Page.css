@@ -153,7 +153,7 @@ main {
     }
 
     main{
-        min-height: 800px;
+        min-height: 860px;
         background-image: url(../Images/mockup_home.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -176,7 +176,7 @@ main {
 
     footer p {
         color: white;
-        font-size: 1vw;
+        font-size: 15px;
         margin-left: 1vw;
         font-family: var(--varelafont);
         
@@ -185,11 +185,60 @@ main {
 }
 
 /*TABLET*/
-@media screen and (min-width: 769px) and (max-width: 1200px){
-    #mobile {
+@media screen and (min-width: 767.9px) and (max-width: 1200px){
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    #mobile-logo {
         display: none;
     }
 
+    #ham-checkbox {
+        display: none;
+    }
+ 
+
+    #ham-checkbox:checked ~ #knop-1 {
+        display: block;
+    }
+
+    #knop-1 { 
+        display: block;
+    }
+
+    #ham-logo {
+        display: none;
+    }
+    
+    #log {
+        display: block;
+        position: relative;
+        left: -2vw;
+        
+    }
+
+    #log p {
+        margin-top: 1vh;
+    }
+
+    #log a{
+        font-size: 1.8vw;
+        color: white;
+        text-decoration: none;
+        font-family: var(--varelafont);
+        padding: 1vw 1vh;
+    
+    }
+
+    #log a:hover {
+        background-color: #3f5f6e;
+    }
+
+    #log li {
+        padding: 1vw;
+    }
     header {
         width: 100vw;
         height: 13vh;
@@ -225,7 +274,7 @@ main {
         
     }
 
-    #knop-2 ul li {
+    #log ul li {
         padding: 2vh;
     }
 
@@ -248,6 +297,12 @@ main {
         background-color: #3f5f6e;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
     #tekstvlak1 p{
         color: white;
         padding-top: 15vh;
@@ -259,23 +314,22 @@ main {
      #tekstvlak2 p{
         color: white;
         font-size: 20px;
-        padding-left: 77vw;
+        padding-left: 32vw;
         font-family: var(--lexendfont);
-        padding-top: 40vh;
+        padding-top: 12vh;
      }
  
      main{
-         min-height: 800px;
+         min-height: 570px;
          background-image: url(../Images/mockup_home.png);
-         background-size: contain;
+         background-size: cover;
          background-repeat: no-repeat;
          background-position: center top;
          min-width: 900px;
      }
 
-
-    footer {
-        position: absolute;
+     footer {
+        bottom: 0;
         display: flex;
         width: 100vw;
         height: 7vh;
@@ -286,22 +340,15 @@ main {
 
     footer p {
         color: white;
-        font-size: 1vw;
+        font-size: 15px;
         margin-left: 1vw;
         font-family: var(--varelafont);
         
     }
-
-
 }
 
 /*SMARTPHONE*/
-@media screen and (min-width: 100px) and (max-width: 769px){
-
-
-    #desktop {
-        display: none;
-    }
+@media screen and (min-width: 100px) and (max-width: 766.9px){
 
     header {
         width: 100vw;
@@ -414,7 +461,7 @@ main {
 
     footer p {
         color: white;
-        font-size: 2vw;
+        font-size: 10px;
         margin-left: 1vw;
         font-family: var(--varelafont);
         
