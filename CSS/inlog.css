@@ -229,8 +229,7 @@
 
 
     footer {
-        position: absolute;
-        bottom: 0;
+        margin-top: 8vh;
         display: flex;
         width: 100vw;
         height: 7vh;
