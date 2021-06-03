@@ -145,6 +145,31 @@
         
     }
 
+    /*INLOG FORMULIER START*/
+
+    #formulier {
+        width: 40vw;
+    }
+
+    #formulier form{
+        border: 1px solid black;
+        text-align: center;
+        padding: 1vw 1vh;
+        margin: 1vw 1vh;
+    }
+
+    #formulier input {
+        padding: .5vw;
+        width: 30vw;
+    }
+
+    #formulier h1{
+        font-family: var(--varelafont);
+        text-align: center;
+        font-size: 2em;
+    }
+
+       /*INLOG FORMULIER EIND*/
 
 
     footer {
