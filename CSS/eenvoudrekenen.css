@@ -523,7 +523,7 @@
 
 
 /*TABLET*/
-@media screen and (min-width: 769px) and (max-width: 1200px){
+@media screen and (min-width: 767.9px) and (max-width: 1200px){
     body {
         width: 100vw;
         overflow-x: hidden;
@@ -1022,7 +1022,7 @@
 
 
 /*SMARTPHONE*/
-@media screen and (min-width: 100px) and (max-width: 769px){
+@media screen and (min-width: 100px) and (max-width: 766.9px){
     body {
         width: 100vw;
         overflow-x: hidden;
