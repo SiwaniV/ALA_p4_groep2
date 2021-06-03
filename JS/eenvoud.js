@@ -1,33 +1,29 @@
 
 
 window.onload = function(){
-    tafelReeks();
-    machtReeks();
+
+  
     breukenReeks();
     kwadraatReeks();
     resetInput();
     }
     
-    function tafelReeks(){
-        /*Variabel voor de uitkomst*/
-        var uitkomst = '';
-        
-        /*Variabel voor de waarde die je intypet*/
-        var vermenigvuldigtal = document.getElementById('waarde1').value;
-        if (vermenigvuldigtal == 0) {
-            document.getElementById("tafels").style.display = none;
-        }
 
-        /*FOR loop die een rij maakt*/
-        for (var vermenigvuldiger = 1; vermenigvuldiger <= 10; vermenigvuldiger++) {
-            var product = vermenigvuldiger * vermenigvuldigtal;
-            /*Formule van hoe je tafels berekent*/
-            uitkomst += vermenigvuldiger + " x " + vermenigvuldigtal +" = " + product +  "<br>";
-           /*Wanneer input = 0, verschijnt er geen resultaat*/
-           
+
+    function tafelReeks() {
+        var vermenigvuldigtal = document.getElementById("tafel-vermenigvuldigtal").value; // De invoer van de gebruiker
+        var maxVermenigvuldiger = document.getElementById("tafel-max-vermenigvuldiger").value;
+        var antwoordVeld = document.getElementById("tafels");
+
+        antwoordVeld.value = ""; // We beginnen elke reeks met een leeg antwoord veld
+    
+        for(var vermenigvuldiger = 1; vermenigvuldiger <= maxVermenigvuldiger; vermenigvuldiger++) {
+            var product = vermenigvuldiger * vermenigvuldigtal;  // We rekenen het product uit van 1 vermenigvuldiging
+            var vermenigvuldiging = vermenigvuldiger + " x " + vermenigvuldigtal + " = " + product; // Dit is de tekstuele berekening die we kunnen toevoegen aan het antwoordveld.
+            antwoordVeld.value += vermenigvuldiging + "\n"; // We de berekening toe aan het antwoord veld afgesloten met een nieuwe regel \n
         }
-        /*variabel die de uitkomst pakt en haalt vervolgens wat er berekend wordt in de uitkomst*/
-        document.getElementById('tafels').innerHTML = uitkomst;
+    
+        return false; // We moeten false returnen, om te voorkomen dat de browser de pagina herlaad.
     }
     
     

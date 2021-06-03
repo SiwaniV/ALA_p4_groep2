@@ -27,7 +27,9 @@
 }
 
 
-
+#kop h1{
+    color: var(--headenfoot);
+}
 
 
 
@@ -150,7 +152,7 @@
     #banner {
         width: 100vw;
         height: 35vh;
-        background-image: url(../Images_fibonacci_priemgetallen.png);
+        background-image: url("../Images_eenvoudigrekenen/banner.png");
         background-size: cover;
         position: relative;
         display: flex;
@@ -249,7 +251,7 @@
         font-family: var(--varelafont);
         font-size: 2vw;
         text-align: center;
-        color: white;
+        
     }
 
     #menu li{
@@ -324,12 +326,29 @@
         
       }
       
-      #waarde1 {
+      #tafel-vermenigvuldigtal {
+          margin-right: 50vw;
           width: 40vw;
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
           font-size: 1.5vw;
+      }
+
+      #tafel-max-vermenigvuldiger{
+        margin-right: 50vw;
+        width: 40vw;
+        height: 5vh;
+        margin-top: 1vh;
+        padding: 1vw;
+        border: 2px solid black;
+        font-size: 1.5vw;
+      }
+
+      #tafel-knop {
+          position: relative;
+          top: -14vh;
+          left: 5vw;
       }
 
       #macht1 {
@@ -370,14 +389,18 @@
         border:  1px solid black;
         background-color: #f2f2f2;
         padding: 2vw 3vh;
+        height: 5vh;
         width: 54.5vw;
         font-family: var(--varelafont);
+        overflow-y: scroll;
       }
 
       #breuken {
         display: block;
         border:  1px solid black;
+        height: 5vh;
         background-color: #f2f2f2;
+        overflow-y: scroll;
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
@@ -387,6 +410,8 @@
         display: block;
         border:  1px solid black;
         background-color: #f2f2f2;
+        overflow-y: scroll;
+        height: 5vh;
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
@@ -613,7 +638,7 @@
     #banner {
         width: 100vw;
         height: 35vh;
-        background-image: url("https://i.pinimg.com/originals/4b/c6/23/4bc623678abe998ac48de379563f977c.png");
+        background-image: url("../Images_eenvoudigrekenen/banner.png");
         background-size: cover;
         position: relative;
         display: flex;
@@ -638,7 +663,7 @@
 
     #banner article {
         padding: 3vw 1vh;
-        margin: 1vw 1vh;
+        margin-top: 5vh;
     }
 
     
@@ -646,7 +671,7 @@
     #info {
         position: absolute;
         left: 45vw;
-        bottom: 8vh;
+        bottom: 2vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
@@ -713,7 +738,6 @@
      #kop {
          font-family: var(--varelafont);
          font-size: 3.5vw;
-         color: white;
      }
 
      #menu li{
@@ -787,13 +811,30 @@
         
       }
       
-      #waarde1 {
+      #tafel-vermenigvuldigtal {
+          margin-right: 50vw;
           width: 40vw;
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
           font-size: 1.5vw;
       }
+
+      #tafel-max-vermenigvuldiger {
+        margin-right: 50vw;
+        margin-top: 1vh;
+        width: 40vw;
+        height: 5vh;
+        padding: 1vw;
+        border: 2px solid black;
+        font-size: 1.5vw;
+    }
+
+    #tafel-knop {
+        position: relative;
+        top: -13vh;
+        left: 5vw;
+    }
 
       #macht1 {
         width: 40vw;
@@ -833,6 +874,8 @@
         border:  1px solid black;
         background-color: #f2f2f2;
         padding: 2vw 3vh;
+        height: 12vh;
+        overflow-y: scroll;
         width: 54.5vw;
         font-family: var(--varelafont);
       }
@@ -841,6 +884,8 @@
         display: block;
         border:  1px solid black;
         background-color: #f2f2f2;
+        height: 12vh;
+        overflow-y: scroll;
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
@@ -850,6 +895,8 @@
         display: block;
         border:  1px solid black;
         background-color: #f2f2f2;
+        height: 12vh;
+        overflow-y: scroll;
         padding: 2vw 3vh;
         width: 54.5vw;
         font-family: var(--varelafont);
@@ -1134,14 +1181,14 @@
     #banner h1, p {
         text-align: center;
         color: black;
-        font-size: 0.9em;
+        font-size: 0.7em;
         font-family: var(--lexendfont);
        
     }
 
     #banner article {
         padding: 3vw 1vh;
-        margin: 1vw 1vh;
+        margin-top: 5vh;
     }
 
     
@@ -1149,12 +1196,12 @@
     #info {
         position: absolute;
         left: 40vw;
-        bottom: 5vh;
+        bottom: 2vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
         border-radius: 5%;
-        padding: 5px 10px;
+        padding: 5px 5px;
         text-align: center;
         display: inline-block;
         font-family: var(--lexendfont);
@@ -1216,7 +1263,6 @@
      #kop {
          font-family: var(--varelafont);
          font-size: 3.5vw;
-         color: white;
          text-align: center;
      }
 
@@ -1291,13 +1337,31 @@
         
       }
       
-      #waarde1 {
+      #tafel-vermenigvuldigtal {
+          margin-right: 44vw;
           width: 45vw;
           height: 5vh;
           padding: 1vw;
           border: 2px solid black;
           font-size: 0.8em;
       }
+
+      #tafel-max-vermenigvuldiger {
+        margin-right: 44vw;
+        margin-top: 1vh;
+        width: 45vw;
+        height: 5vh;
+        padding: 1vw;
+        border: 2px solid black;
+        font-size: 0.8em;
+    }
+
+    #tafel-knop {
+        position: relative;
+        left: -39vw;
+        top: 1vh;
+
+    }
 
       #macht1 {
         width: 45vw;
@@ -1341,6 +1405,8 @@
         width: 54.5vw;
         font-family: var(--varelafont);
         margin-top: 9vh;
+        overflow-y: scroll;
+        height: 15vh;
       }
 
       #breuken {
@@ -1351,6 +1417,8 @@
         width: 54.5vw;
         font-family: var(--varelafont);
         margin-top: 9vh;
+        overflow-y: scroll;
+        height: 15vh;
       }
 
       #kwadraat {
@@ -1361,6 +1429,8 @@
         width: 54.5vw;
         font-family: var(--varelafont);
         margin-top: 9vh;
+        overflow-y: scroll;
+        height: 15vh;
       }
       
       button {

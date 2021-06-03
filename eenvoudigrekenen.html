@@ -63,8 +63,8 @@
                         <h1 id="icon">«</h1>
                     </summary>
                     <nav id="menu">
+                        <h1 id="kop">Hoofdstukken</h1>
                         <ul>
-                            <h1 id="kop">Hoofdstukken</h1>
                             <li><a href="#Tafels1">Tafels</a></li>
                             <li><a href="#Machten1">Machten</a></li>
                             <li><a href="#Breuken1">Breuken</a></li>
@@ -105,10 +105,20 @@
 
         <section class="formule">
             <article>
-                <h1>De tafel van..</h1><br><br>
-                <input type="number" id=waarde1 name="waarde" title="Type vermenigvuldiger in" placeholder="Vul hier vermenigvuldiger in">
-                <button id="btn-1" onclick="tafelReeks()">Genereer</button><br><br>
-                <article id="tafels"></article>
+                <form onsubmit="return tafelReeks()">
+                    <p>
+                        <input id="tafel-vermenigvuldigtal" value="5" type="number" title="Type het vermenigvuldgetal in">
+                    </p>
+                    <p>
+                        <input id="tafel-max-vermenigvuldiger" value="10" type="number" title="Type hier de vermenigvuldiger in">
+                    </p>
+                    <p>
+                        <button type="submit" id="tafel-knop">Genereer</button>
+                    </p>
+                    <p>
+                        <textarea readonly id="tafels"></textarea>
+                    </p>
+                </form>
             </article>
         </section>
 
@@ -133,7 +143,7 @@
         <section class="formule">
             <article>
                 <h1>De machtreeks van..</h1><br><br>
-                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="5">
                 <button id="btn-2" onclick="machtReeks()">Genereer</button><br> <br>
                 <article id="machten"></article>
             </article>
@@ -184,7 +194,7 @@ ingevulde getal loopt.
         <section class="formule">
             <article>
                 <h1>De breukenreeks van..</h1><br><br>
-                <input type="number" id=breuk1 name="breuk" title="Type de noemer in" placeholder="Vul de noemer in">
+                <input type="number" id=breuk1 name="breuk" title="Type de noemer in" placeholder="5">
                 <button onclick="breukenReeks()">Genereer</button><br> <br>
                 <article id="breuken"></article>
             </article>
@@ -194,7 +204,7 @@ ingevulde getal loopt.
         <!--MACHTENREEKS 2-->
         <section class="blok">
             <article class="lamp">
-                <img src="lamp.png">
+                <img src="Images/lamp.png">
             </article>
             <span id="Machten2"></span>
                 <article class="uitleg">
@@ -212,7 +222,7 @@ ingevulde getal loopt.
         <section class="formule">
             <article>
                 <h1>De machtenreeks van..</h1><br><br>
-                <input type="number" id=kwad1 name="kwad" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <input type="number" id=kwad1 name="kwad" title="Type de grondgetal in" placeholder="5">
                 <button onclick="kwadraatReeks()">Genereer</button><br> <br>
                 <article id="kwadraat"></article>
             </article>
