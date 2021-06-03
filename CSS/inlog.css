@@ -211,7 +211,8 @@
 
     .lock-icon {
         position: relative;
-        right: -0.95vw;
+        right: -0.99vw;
+        top: 6.3vh;
         color: var(--bannerfont-color);
         height: 1.89vh;
         padding: 1vw;
