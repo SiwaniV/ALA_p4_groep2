@@ -39,6 +39,9 @@
         overflow-x: hidden;
     }
 
+    #mobiel-logo {display: none;}
+
+
     #ham-checkbox {
         display: none;
     }
@@ -201,6 +204,8 @@
         overflow-x: hidden;
     }
 
+    #mobiel-logo {display: none;}
+
     #ham-checkbox {
         display: none;
     }
@@ -344,6 +349,8 @@
         width: 100vw;
         overflow-x: hidden;
     }
+
+    #mobiel-desktop {display: none;}
 
     #ham-logo  {
         display: block;
