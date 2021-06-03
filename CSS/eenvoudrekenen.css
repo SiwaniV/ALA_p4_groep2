@@ -150,7 +150,7 @@
     #banner {
         width: 100vw;
         height: 35vh;
-        background-image: url("https://i.pinimg.com/originals/4b/c6/23/4bc623678abe998ac48de379563f977c.png");
+        background-image: url(../Images_fibonacci_priemgetallen.png);
         background-size: cover;
         position: relative;
         display: flex;
@@ -1115,7 +1115,7 @@
     #banner {
         width: 100vw;
         height: 35vh;
-        background-image: url("https://i.pinimg.com/originals/4b/c6/23/4bc623678abe998ac48de379563f977c.png");
+        background-image: url(../Images_eenvoudigrekenen/banner.png);
         background-size: cover;
         position: relative;
         display: flex;
