@@ -1107,7 +1107,7 @@
     font-size: 0.8em;
   }
 
-  #getal_priem {
+  #number {
     width: 45vw;
     height: 5vh;
     padding: 1vw;
@@ -1126,7 +1126,7 @@
     margin-top: 9vh;
   }
 
-  #priemgetal-output{
+  #output{
     display: block;
     border:  1px solid black;
     background-color: #f2f2f2;
@@ -1150,9 +1150,27 @@
     font-size: 0.8em;
   }
 
+  #button-priem {
+    position: relative;
+    top: 10vh;
+    right: 53vw;
+    border: 2px solid var(--knopbordercolor);
+    width: 17vw;
+    height: 8vh;
+    margin-left: 4.5vw;
+    background-color: var(--knopbackground);
+    transition: 1s;
+    font-size: 0.8em;
+  }
+
 
   
   button:hover {
+    background-color: rgb(82, 75, 179);
+    cursor: pointer;
+  }
+
+  #button-priem:hover{
     background-color: rgb(82, 75, 179);
     cursor: pointer;
   }
