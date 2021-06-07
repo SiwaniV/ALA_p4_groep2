@@ -365,6 +365,7 @@
     main {
         display: flex;
         flex-direction: column;
+        height: 80vh;
         
     }
 
@@ -419,6 +420,11 @@
         cursor: pointer;
     }
 
+    #formulier i {
+        margin-top: .2vh;
+        margin-left: -0.5vw;
+    }
+
     .user-icon{
         position: fixed;
         height: 2vh;
@@ -454,7 +460,6 @@
 
 
     footer {
-        margin-top: 17vh;
         display: flex;
         width: 100vw;
         height: 7vh;
@@ -622,6 +627,7 @@
     main {
         display: flex;
         flex-direction: column;
+        height: 83vh;
         
     }
 
@@ -660,7 +666,7 @@
         }
     
         #log_in_btn {
-            width: 15vw;
+            width: 19vw;
             height: 5vh;
             background-color: var(--bannercolor);
             color: white;
@@ -674,6 +680,11 @@
         #log_in_btn:hover {
             background-color: #df6c2d;
             cursor: pointer;
+        }
+
+        #formulier i {
+            margin-left: -4vw;
+            margin-top: 0.5vh;
         }
     
         .user-icon{
@@ -708,8 +719,6 @@
       
 
     footer {
-        position: absolute;
-        bottom: 0;
         display: flex;
         width: 100vw;
         height: 7vh;
