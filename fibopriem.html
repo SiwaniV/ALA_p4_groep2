@@ -102,9 +102,13 @@
         <section class="formule">
             <article>
                 <h1>Alle priemgetallen tot...</h1><br><br>
-                <input type="number" id=getal_priem name="priem_getal" title="Type maximum getal in" value="5">
-                <button id="btn-2" onclick="">Genereer</button><br><br>
-                <article id="priemgetal-output"></article>
+                <form action="" method="post" id="prime">
+                    <div>
+                        <input type="text" id="number" name="number" placeholder="Number" />
+                        <input id="button-priem" type="submit" value="Genereer" /><br><br>
+                    </div>
+                </form>
+                <div id="output"></div>
             </article>
         </section>
         <!--priemgetallen eind-->

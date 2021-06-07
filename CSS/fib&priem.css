@@ -267,7 +267,7 @@
           font-size: 1.5vw;
       }
 
-      #getal_priem {
+      #number {
         width: 40vw;
         height: 5vh;
         padding: 1vw;
@@ -285,7 +285,7 @@
         font-family: var(--varelafont);
       }
 
-      #priemgetal-output{
+      #output{
         display: block;
         border:  1px solid black;
         background-color: #f2f2f2;
@@ -296,6 +296,16 @@
 
       
       button {
+        border: 2px solid var(--knopbordercolor);
+        width: 10vw;
+        height: 9vh;
+        margin-left: 5vw;
+        background-color: var(--knopbackground);
+        transition: 1s;
+        font-size: 1.4vw;
+      }
+
+      #button-priem  {
         border: 2px solid var(--knopbordercolor);
         width: 10vw;
         height: 9vh;
@@ -552,79 +562,7 @@
 
     /*BANNER EIND*/
 
-     /*SMALL MENU*/
 
-     #item-ham {
-         position: fixed;
-         right: 4vw;
-         bottom: 6vh;
-         z-index: 1;
-     }
-
-     #icon {
-         font-size: 3.5vw;
-         color: white;
-         background-color: #2a6e80;
-         padding: 0.5vw 3.5vh;
-         text-align: center;
-         border: 1px solid var(--knopbackground);
-         border-radius: 80px;
-         transition: 1s;
-     }
-
-     #icon:hover {
-         color: var(--knopbackground);
-     }
-
-     #item-ham summary{
-        list-style: none;
-        cursor: pointer;
-    }
-
-     #menu {
-        right: 12vw;
-        top: 55vh;
-        padding: 2vw;
-        position: fixed;
-    
-     }
-
-     #menu ul {
-      background-color: var(--knopbordercolor);
-      padding: 1.5vw;
-      border-radius: 25px;
-     
-     }
-
-     #kop {
-         font-family: var(--varelafont);
-         font-size: 3.5vw;
-         color: white;
-     }
-
-     #menu li{
-         text-align: center;
-         padding: 2vh 5vw;
-         list-style-type: none;
-         border: 2px solid rgba(118, 114, 124, 0.562);
-         background-color: #d6dee0;
-         transition: 1s;
-         
-     }
-
-     #menu li a{
-        text-decoration: none;
-        color: black;
-        font-family: var(--lexendfont);
-     }
-
-     #menu li:hover{
-         background-color: #7e8283;
-     }
-
-
-
-     /*SMALL MENU EIND*/
     
 /*UITLEG*/
 
@@ -681,7 +619,7 @@
           font-size: 1.5vw;
       }
 
-      #getal_priem {
+      #number {
         width: 40vw;
         height: 5vh;
         padding: 1vw;
@@ -699,7 +637,7 @@
         font-family: var(--varelafont);
       }
 
-      #priemgetal-output{
+      #output{
         display: block;
         border:  1px solid black;
         background-color: #f2f2f2;
@@ -719,9 +657,24 @@
         font-size: 1.4vw;
       }
 
+      #button-priem {
+        border: 2px solid var(--knopbordercolor);
+        width: 10vw;
+        height: 9vh;
+        margin-left: 5vw;
+        background-color: var(--knopbackground);
+        transition: 1s;
+        font-size: 1.4vw;
+      }
+
  
       
       button:hover {
+        background-color: rgb(82, 75, 179);
+        cursor: pointer;
+      }
+
+      #button-priem:hover {
         background-color: rgb(82, 75, 179);
         cursor: pointer;
       }
@@ -929,6 +882,7 @@
         text-decoration: none;
         font-family: var(--varelafont);
         padding: 1vw 1vh;
+        margin-top: 5vh;
     }
 
     #log a:hover {
@@ -1002,7 +956,7 @@
 
     #info {
         position: absolute;
-        left: 43.5vw;
+        left: 41vw;
         bottom: 5vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
