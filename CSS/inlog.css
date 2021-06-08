@@ -36,11 +36,17 @@
 @media screen and (min-width: 1200px){
     body {
         width: 100vw;
+<<<<<<< HEAD
+        overflow-x: hidden;
+    }
+    
+=======
         overflow: hidden;
     }
 
     #mobiel-logo {display: none;}
 
+>>>>>>> inlog
 
     #ham-checkbox {
         display: none;
@@ -145,13 +151,24 @@
     main {
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
+=======
         height: 78vh;
+>>>>>>> inlog
         
     }
 
     /*INLOG FORMULIER START*/
 
     #formulier {
+<<<<<<< HEAD
+        width: 40vw;
+    }
+
+    #formulier form{
+        border: 1px solid black;
+        text-align: center;
+=======
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -166,6 +183,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+>>>>>>> inlog
         padding: 1vw 1vh;
         margin: 1vw 1vh;
     }
@@ -173,8 +191,11 @@
     #formulier input {
         padding: .5vw;
         width: 30vw;
+<<<<<<< HEAD
+=======
         margin-left: 4vw;
         height: 4vh;
+>>>>>>> inlog
     }
 
     #formulier h1{
@@ -183,6 +204,8 @@
         font-size: 2em;
     }
 
+<<<<<<< HEAD
+=======
     #log_in_btn {
         width: 10vw;
         height: 5vh;
@@ -226,14 +249,22 @@
         color: rgb(112, 112, 173);
     }
 
+>>>>>>> inlog
        /*INLOG FORMULIER EIND*/
 
 
     footer {
+<<<<<<< HEAD
+        position: absolute;
+        display: flex;
+        width: 100vw;
+        height: 7vh;
+=======
       
         display: flex;
         width: 100vw;
         height: 8vh;
+>>>>>>> inlog
         background-color: var(--headenfoot);
         justify-content: flex-start;
         align-items: center;
@@ -255,11 +286,17 @@
 @media screen and (min-width: 769px) and (max-width: 1200px){
     body {
         width: 100vw;
+<<<<<<< HEAD
+        overflow-x: hidden;
+    }
+
+=======
         overflow: hidden;
     }
 
     #mobiel-logo {display: none;}
 
+>>>>>>> inlog
     #ham-checkbox {
         display: none;
     }
