@@ -1,3 +1,11 @@
+<?php
+session_start();
+if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
+    header("Location: inloggen.php");
+    exit();
+}
+?>
+
 <!doctype html>
 <html>
 
@@ -32,7 +40,7 @@
             <nav id="knop-1">
                 <ul>
                     <li><a href="#">Presentatie</a></li>
-                    <li><a href="#">Eenvoudig rekenen</a></li>
+                    <li><a href="eenvoudigrekenen.php">Eenvoudig rekenen</a></li>
                     <li><a href="#">Fibonacci / priemgetallen</a></li>
                     <li><a href="#">Pittig rekenen</a></li>
                     <li><a href="#">Dobbelstenen</a></li>
@@ -44,7 +52,7 @@
         <article>
             <nav id="knop-2">
                 <ul>
-                    <li><a href="#">Inloggen</a></li>
+                    <li><a href="inloggen.php">Inloggen</a></li>
                     <li><a href="#">Aanmelden</a></li>
                 </ul>
             </nav>

@@ -1,8 +1,4 @@
 <?php
-session_start();
-if($_SESSION['ingelogd'] != true) {
-    header ("");
-}
 
 //stap 1 verbinden met database
 $servername = "localhost";
