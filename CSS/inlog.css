@@ -36,17 +36,9 @@
 @media screen and (min-width: 1200px){
     body {
         width: 100vw;
-<<<<<<< HEAD
         overflow-x: hidden;
     }
     
-=======
-        overflow: hidden;
-    }
-
-    #mobiel-logo {display: none;}
-
->>>>>>> inlog
 
     #ham-checkbox {
         display: none;
