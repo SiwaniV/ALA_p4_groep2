@@ -3,9 +3,7 @@
 window.onload = function(){
 
   
-    breukenReeks();
-    kwadraatReeks();
-    resetInput();
+  
     }
     
 
@@ -23,7 +21,7 @@ window.onload = function(){
             antwoordVeld.value += vermenigvuldiging + "\n"; // We de berekening toe aan het antwoord veld afgesloten met een nieuwe regel \n
         }
     
-        return false; // We moeten false returnen, om te voorkomen dat de browser de pagina herlaad.
+       
     }
     
     

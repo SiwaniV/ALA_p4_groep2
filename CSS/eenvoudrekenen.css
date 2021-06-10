@@ -329,13 +329,17 @@
         flex-direction: column;
         
       }
+
+      .formule input {
+        width: 40vw;
+        height: 5vh;
+        padding: 1vw;
+        border: 2px solid black;
+      }
       
-      #tafel-vermenigvuldigtal {
+      #tafel-vermenigvuldiger {
           margin-right: 50vw;
-          width: 40vw;
-          height: 5vh;
-          padding: 1vw;
-          border: 2px solid black;
+
           font-size: 1.5vw;
       }
 

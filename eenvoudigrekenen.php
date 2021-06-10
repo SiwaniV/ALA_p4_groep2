@@ -77,11 +77,32 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                         getal via de ‘genereer’ knop terug.</p>
             </article>
         </section>
+<!-- 
+                   <section id="tafels">
+            <h1>Tafels</h1>
+            <form onsubmit="return genereerTafel();">
+                <p>
+                    <label>Vermenigvuldigtal:</label>
+                    <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                </p>
+                <p>
+                    <label>Max vermenigvuldiger:</label>
+                    <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                </p>
+                <p>
+                    <button type="submit">Genereer tafel</button>
+                </p>
+                <p>
+                    <textarea readonly id="tafel-antwoord"></textarea>
+                </p>
+            </form>
+        </section> -->
 
         <section class="formule">
             <article>
                 <h1>De tafel van..</h1><br><br>
-                <input type="number" id=waarde1 name="waarde" title="Type vermenigvuldiger in" placeholder="Vul hier vermenigvuldiger in">
+                <input type="number" id="tafel-vermenigvuldiger" title="Type vermenigvuldiger in" value="5">
+                <input type="number" id="tafel-max-vermenigvuldiger" title="Type vermenigvuldiger in" value="10">
                 <button id="btn-1" onclick="tafelReeks()">Genereer</button><br><br>
                 <article id="tafels"></article>
             </article>
