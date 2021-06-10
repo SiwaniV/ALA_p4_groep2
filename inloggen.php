@@ -79,7 +79,6 @@ if (isset($_POST['submit'])) {
                     <input type="pas" name="wachtwoord" placeholder="Wachtwoord" title="Typ je wachtwoord in" required>
                 </div>
                 <button id="log_in_btn" type="submit" name="submit" value="inloggen">Inloggen</button>
-                <button id="log_in_btn" type="submit" name="submit" value="inloggen">Inloggen</button>
                 <a id="link-aanmeld" href="#"><p>Creër een account</p></a>
         </section>
 
