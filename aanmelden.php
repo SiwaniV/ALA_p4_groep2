@@ -40,7 +40,7 @@ $error = "";
                 </div> <br><br>
                 <div>
                     <i class="fas fa-lock lock-icon"></i>
-                    <input type="pas" name="wachtwoord" placeholder="Wachtwoord" title="Typ je wachtwoord in" required>
+                    <input type="password" name="wachtwoord" placeholder="Wachtwoord" title="Typ je wachtwoord in" required>
                 </div>
                 <button id="log_in_btn" type="submit" name="submit" value="inloggen">Aanmelden</button>
         </section>
