@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html>
 
@@ -10,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Noortje Steenbergen">
     <meta name="keywords" content="">
-    <title>Home Page</title>
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="CSS/Home Page.css">
 </head>
 
