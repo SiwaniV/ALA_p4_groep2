@@ -1,0 +1,21 @@
+:focus {
+	outline-style: none;
+}
+#number {
+	width: 200px;
+	padding: 8px;
+	border: 1px solid #ddd;
+}	
+
+input[type="submit"] {
+	background: #08c;
+	color: #fff;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
+#output {
+	font: 1em monospace;
+}
