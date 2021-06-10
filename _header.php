@@ -24,7 +24,7 @@
         <br><br><a href="uitloggen.php" onclick="return confirm('Ben je zeker dat je je wilt afmelden?');">Uitloggen</a></p>
         <?php }else { ?>
             <p><a href="inloggen.php">Inloggen</a></li><br></p>
-            <p><a href="#">Aanmelden</a></li></p>
+            <p><a href="aanmelden.php">Aanmelden</a></li></p>
         <?php } ?>
     </article>
 </header>
