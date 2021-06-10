@@ -7,9 +7,9 @@
         <label id="ham-logo" for="ham-checkbox">☰</label>
         <nav id="knop-1">
             <ul id="menu-2">
-                <li><a href="#">Presentatie</a></li>
+                <li><a href="presentatie.php">Presentatie</a></li>
                 <li><a href="eenvoudigrekenen.php">Eenvoudig rekenen</a></li>
-                <li><a href="#">Fibonacci/priemgetallen</a></li>
+                <li><a href="fibopriem.php">Fibonacci/priemgetallen</a></li>
                 <li><a href="#">Pittig rekenen</a></li>
                 <li><a href="#">Dobbelstenen</a></li>
                 <li><a href="#">Spel</a></li>
