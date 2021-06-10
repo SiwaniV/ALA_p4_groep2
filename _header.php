@@ -20,7 +20,8 @@
 
     <article id="log">
         <?php if(isset($_SESSION['ingelogd']) && $_SESSION['ingelogd'] == true) { ?>
-            <p>Hallo <?php echo $_SESSION['inlogcode']; ?></p>
+            <p id="welkom-tekst">Hallo <?php echo $_SESSION['inlogcode'];?>
+        <br><br> <a href="#">Uitloggen</a></p>
         <?php }else { ?>
             <p><a href="#">Inloggen</a></li><br></p>
             <p><a href="#">Aanmelden</a></li></p>

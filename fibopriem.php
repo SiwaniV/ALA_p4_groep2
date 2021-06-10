@@ -33,7 +33,7 @@
                         <!--Fibonacci start-->
         <section class="blok">
             <article class="lamp">
-                <img src="lamp.png">
+                <img src="Images/lamp.png">
             </article>
                 <article class="uitleg">
             <p>Fibonacci is een reeks getallen die begint bij twee getallen: eerst 0 en vervolgens 1. Het volgende getal komt telkens voort uit de som van de voorgaande twee getallen.
@@ -61,7 +61,7 @@
 
                 <section class="blok">
                     <article class="lamp">
-                        <img src="lamp.png">
+                    <img src="Images/lamp.png">
                     </article>
                         <article class="uitleg">
                     <p>Priemgetallen zijn alle natuurlijke getallen groter dan 1, die alleen door 1 en zichzelf deelbaar zijn. Het getal 2 is het kleinste priemgetal en de reeks gaat vervolgens zo verder:

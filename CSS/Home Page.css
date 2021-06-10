@@ -33,6 +33,7 @@ main {
 }
 
 
+
 /*DESKTOP*/
 @media screen and (min-width: 1200px){    
     #ham-checkbox {
@@ -135,6 +136,7 @@ main {
     header nav li a:hover{
         background-color: #3f5f6e;
     }
+
 
     #tekstvlak1 p{
        color: white;
