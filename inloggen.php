@@ -79,7 +79,7 @@ if (isset($_POST['submit'])) {
                     <input type="password" name="wachtwoord" placeholder="Wachtwoord" title="Typ je wachtwoord in" required>
                 </div>
                 <button id="log_in_btn" type="submit" name="submit" value="inloggen">Inloggen</button>
-                <a id="link-aanmeld" href="#"><p>Creër een account</p></a>
+                <a id="link-aanmeld" href="aanmelden.php"><p>Creër een account</p></a>
         </section>
 
 
