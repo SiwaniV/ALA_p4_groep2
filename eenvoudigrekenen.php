@@ -24,7 +24,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
 
 <body>
 
-    <?php include('_header.php'); ?>
+<?php include('_header.php'); ?>
 
     <main>
         <section id="banner">
