@@ -157,6 +157,11 @@
         margin-top: 3vh;
     }
 
+    #formulier i {
+        margin-left: -3.5vw;
+        margin-top: -1vh;
+    }
+
     #formulier form{
         height: 50vh;
         border: 1px solid black;
