@@ -29,7 +29,8 @@ $error = "";
     <?php include('_header.php'); ?>
 
     <main>
-    
+
+
         <section id="formulier">
             <form method="post" action="">
             <?php echo $error;?>
