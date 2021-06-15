@@ -41,9 +41,6 @@
         overflow-x: hidden;
     }
 
-    #mobile-logo {
-        display: none;
-    }
 
     #ham-checkbox {
         display: none;
@@ -691,7 +688,7 @@
     #info {
         position: absolute;
         left: 45vw;
-        bottom: 2vh;
+        bottom: 7vh;
         background-color: var(--knopbackground);
         border: 2px solid var(--knopbordercolor);
         color: var(--knopfontcolor);
@@ -1040,14 +1037,6 @@
         overflow-x: hidden;
     }
 
-    #mobile-logo {
-        display: block;
-    }
-
-    #desktop-logo {
-        display: none;
-    }
-
 
     #ham-logo  {
         display: block;
@@ -1088,7 +1077,7 @@
 
 
     #logo img{
-        height: 12vh;
+        height: 10vh;
     }
 
     #ham-logo  {
@@ -1100,7 +1089,7 @@
 
     #menu-2{
             position: absolute;
-            top: 7vh;
+        
             left: -7vw;
             background-color: var(--headenfoot);
             z-index: 1;
@@ -1553,7 +1542,7 @@
 
 
     footer {
-        position: absolute;
+       
         display: flex;
         width: 100vw;
         height: 7vh;
