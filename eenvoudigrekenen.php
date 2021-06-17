@@ -99,14 +99,24 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
         </section> -->
 
         <section class="formule">
-            <article>
-                <h1>De tafel van..</h1><br><br>
-                <input type="number" id="tafel-vermenigvuldiger" title="Type vermenigvuldiger in" value="5">
-                <input type="number" id="tafel-max-vermenigvuldiger" title="Type vermenigvuldiger in" value="10">
-                <button id="btn-1" onclick="tafelReeks()">Genereer</button><br><br>
-                <article id="tafels"></article>
-            </article>
-        </section>
+        <article>
+                <h1>Tafels van...</h1><br><br>
+                <form onsubmit="return genereerTafel();">
+                    <p>
+                        <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                    </p>
+                    <p>
+                        <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                    </p>
+                    <p>
+                        <button id="tafel-knop" type="submit">Genereer</button>
+                    </p>
+                    <p>
+                        <article id="tafels"></article>
+                    </p>
+                </form>
+                </article>
+            </section>
 
                 <!--TAFELREEKS EIND-->
 
