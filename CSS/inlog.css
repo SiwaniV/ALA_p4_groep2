@@ -1,8 +1,6 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&family=Varela+Round&display=swap');
-
 
 /* CSS Document */
 
@@ -11,7 +9,7 @@
     padding: 0;
 }
 
-:root{
+:root {
     --headenfoot: #153747;
     --bannercolor: #f08348;
     --bannerfont-color: #34415e;
@@ -23,36 +21,25 @@
     --uitlegbackground: #6dc9e2;
     --secondblockbackgorund: #df6c2d;
     --outputbackground: #f2f2f2;
-
 }
 
 
-
-
-
-
-
 /*DESKTOP*/
-@media screen and (min-width: 1200px){
+
+@media screen and (min-width: 1200px) {
     body {
         width: 100vw;
-        overflow-x: hidden;
+        overflow: hidden;
     }
-    
-
     #ham-checkbox {
         display: none;
     }
-
     #ham-logo {
         display: none;
     }
- 
-
-    #ham-checkbox:checked ~ #knop-1 {
+    #ham-checkbox:checked~#knop-1 {
         display: block;
     }
-
     header {
         width: 100vw;
         height: 15vh;
@@ -63,71 +50,51 @@
         align-items: center;
         text-align: center;
     }
-
-    #knop-1 { 
+    #knop-1 {
         display: block;
     }
-
-   #logo {
-       position: absolute;
-       left: 2vw;
-   }
-
-
-    #logo img{
+    #logo {
+        position: absolute;
+        left: 2vw;
+    }
+    #logo img {
         height: 13vh;
     }
-
-    #knop-1{
+    #knop-1 {
         margin-left: 30vw;
-      
     }
-   
-
-    #knop-1 ul li{
+    #knop-1 ul li {
         position: relative;
         right: 20vw;
         float: left;
         margin-top: 1vh;
-        
     }
-
     #log {
         display: block;
         position: relative;
         left: -2vw;
         top: -1vh;
-        
     }
-
     #log p {
         margin-top: 3vh;
     }
-
-    #log a{
+    #log a {
         font-size: 1vw;
         color: white;
         text-decoration: none;
         font-family: var(--varelafont);
         padding: 1vw 1vh;
-    
     }
-
     #log a:hover {
         background-color: #3f5f6e;
     }
-
     #log li {
         padding: 1vw;
     }
-
-
     header nav ul {
         list-style-type: none;
     }
-
-
-    header nav li a{
+    header nav li a {
         text-decoration: none;
         padding: 1vw 2vh;
         font-size: 1vw;
@@ -135,20 +102,15 @@
         font-family: var(--varelafont);
         transition: 1s;
     }
-
-    header nav li a:hover{
+    header nav li a:hover {
         background-color: #3f5f6e;
     }
-
     main {
         display: flex;
         flex-direction: column;
         height: 78vh;
-        
     }
-
     /*INLOG FORMULIER START*/
-
     #formulier {
         display: flex;
         flex-direction: column;
@@ -156,13 +118,11 @@
         width: 40vw;
         margin-top: 3vh;
     }
-
     #formulier i {
         margin-left: -3.5vw;
         margin-top: -1vh;
     }
-
-    #formulier form{
+    #formulier form {
         height: 50vh;
         border: 1px solid black;
         display: flex;
@@ -172,18 +132,15 @@
         padding: 1vw 1vh;
         margin: 1vw 1vh;
     }
-
     #formulier input {
         padding: .5vw;
         width: 30vw;
     }
-
-    #formulier h1{
+    #formulier h1 {
         font-family: var(--varelafont);
         text-align: center;
         font-size: 2em;
     }
-
     #log_in_btn {
         width: 10vw;
         height: 5vh;
@@ -195,20 +152,17 @@
         border-radius: 15px;
         transition: 1s;
     }
-
     #log_in_btn:hover {
         background-color: #df6c2d;
         cursor: pointer;
     }
-
-    .user-icon{
+    .user-icon {
         position: fixed;
         height: 1.84vh;
         border: 1px solid black;
         color: var(--bannerfont-color);
         padding: 1vw;
     }
-
     .lock-icon {
         position: fixed;
         color: var(--bannerfont-color);
@@ -216,22 +170,16 @@
         padding: 1vw;
         border: 1px solid black;
     }
-
-    #link-aanmeld{
+    #link-aanmeld {
         color: blue;
         text-decoration: none;
         font-family: var(--lexendfont);
     }
-
     #link-aanmeld:hover {
         color: rgb(112, 112, 173);
     }
-
-       /*INLOG FORMULIER EIND*/
-
-
+    /*INLOG FORMULIER EIND*/
     footer {
-      
         display: flex;
         width: 100vw;
         height: 8vh;
@@ -239,67 +187,52 @@
         justify-content: flex-start;
         align-items: center;
     }
-
     footer p {
         color: white;
         font-size: 1vw;
         margin-left: 1vw;
         font-family: var(--varelafont);
-        
     }
-
-
 }
 
 
 /*TABLET*/
-@media screen and (min-width: 769px) and (max-width: 1200px){
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
     body {
         width: 100vw;
         overflow-x: hidden;
     }
-
     #ham-checkbox {
         display: none;
     }
- 
-
-    #ham-checkbox:checked ~ #knop-1 {
+    #ham-checkbox:checked~#knop-1 {
         display: block;
     }
-
-    #knop-1 { 
+    #knop-1 {
         display: block;
     }
-
     #ham-logo {
         display: none;
     }
-
     #log {
         display: block;
         position: relative;
         left: -2vw;
-        
     }
-
     #log p {
         margin-top: 1vh;
     }
-
-    #log a{
+    #log a {
         font-size: 1.8vw;
         color: white;
         text-decoration: none;
         font-family: var(--varelafont);
         padding: 1vw 1vh;
-    
     }
-
     #log a:hover {
         background-color: #3f5f6e;
     }
-
     #log li {
         padding: 1vw;
     }
@@ -313,42 +246,29 @@
         align-items: center;
         text-align: center;
     }
-
-   #logo {
-       position: absolute;
-       left: 2vw;
-   }
-
-
-    #logo img{
+    #logo {
+        position: absolute;
+        left: 2vw;
+    }
+    #logo img {
         height: 12vh;
     }
-
-    #knop-1{
+    #knop-1 {
         margin-left: 30vw;
-      
     }
-   
-
-    #knop-1 ul li{
+    #knop-1 ul li {
         position: relative;
         right: 10vw;
         float: left;
         margin-top: 1vh;
-        
     }
-
     #log ul li {
         padding: 2vh;
     }
-
-
     header nav ul {
         list-style-type: none;
     }
-
-
-    header nav li a{
+    header nav li a {
         text-decoration: none;
         padding: 1vw 1vh;
         font-size: 1.5vw;
@@ -356,29 +276,23 @@
         font-family: var(--varelafont);
         transition: 1s;
     }
-
-    header nav li a:hover{
+    header nav li a:hover {
         background-color: #3f5f6e;
     }
-
     main {
         display: flex;
         flex-direction: column;
         height: 80vh;
-        
     }
-
-       /*INLOG FORMULIER START*/
-
-       #formulier {
+    /*INLOG FORMULIER START*/
+    #formulier {
         display: flex;
         flex-direction: column;
         align-self: center;
         width: 40vw;
         margin-top: 3vh;
     }
-
-    #formulier form{
+    #formulier form {
         height: 50vh;
         border: 1px solid black;
         display: flex;
@@ -388,20 +302,17 @@
         padding: 1vw 1vh;
         margin: 1vw 1vh;
     }
-
     #formulier input {
         padding: .5vw;
         width: 30vw;
         margin-left: 4vw;
         height: 4vh;
     }
-
-    #formulier h1{
+    #formulier h1 {
         font-family: var(--varelafont);
         text-align: center;
         font-size: 2em;
     }
-
     #log_in_btn {
         width: 10vw;
         height: 5vh;
@@ -413,51 +324,37 @@
         border-radius: 15px;
         transition: 1s;
     }
-
     #log_in_btn:hover {
         background-color: #df6c2d;
         cursor: pointer;
     }
-
     #formulier i {
         margin-top: .2vh;
         margin-left: -0.5vw;
     }
-
-    .user-icon{
+    .user-icon {
         position: fixed;
         height: 2vh;
         border: 1px solid black;
         color: var(--bannerfont-color);
         padding: 1vw;
-        
     }
-
     .lock-icon {
         position: fixed;
         color: var(--bannerfont-color);
         height: 2vh;
         padding: 1vw;
         border: 1px solid black;
-       
     }
-
-    #link-aanmeld{
+    #link-aanmeld {
         color: blue;
         text-decoration: none;
         font-family: var(--lexendfont);
     }
-
     #link-aanmeld:hover {
         color: rgb(112, 112, 173);
     }
-
-       /*INLOG FORMULIER EIND*/
-
- 
-
-
-
+    /*INLOG FORMULIER EIND*/
     footer {
         display: flex;
         width: 100vw;
@@ -466,53 +363,34 @@
         justify-content: flex-start;
         align-items: center;
     }
-
     footer p {
         color: white;
         font-size: 1vw;
         margin-left: 1vw;
         font-family: var(--varelafont);
-        
     }
 }
 
 
-
-
-
-
-
 /*SMARTPHONE*/
-@media screen and (min-width: 100px) and (max-width: 769px){
+
+@media screen and (min-width: 100px) and (max-width: 769px) {
     body {
         width: 100vw;
         overflow-x: hidden;
     }
-
-  
-    
-
-    #ham-logo  {
+    #ham-logo {
         display: block;
     }
-
     #ham-checkbox {
         display: none;
     }
-
-
-    #ham-logo ~ #knop-1 {
+    #ham-logo~#knop-1 {
         display: none;
     }
-
-    #ham-checkbox:checked ~ #knop-1 {
+    #ham-checkbox:checked~#knop-1 {
         display: flex;
-        
     }
-
-
-
-
     header {
         width: 100vw;
         height: 10vh;
@@ -523,200 +401,158 @@
         align-items: center;
         text-align: center;
     }
-
     #logo {
         position: absolute;
         left: 1vw;
     }
-
-
-    #logo img{
+    #logo img {
         height: 12vh;
     }
-
-    #ham-logo  {
+    #ham-logo {
         font-size: 7vw;
         margin-left: -4vw;
         margin-top: -1vh;
         cursor: pointer;
     }
-
-    #menu-2{
-            position: absolute;
-            top: 7vh;
-            left: -7vw;
-            background-color: var(--headenfoot);
-            z-index: 1;
-            text-align: left;
-            display: flex;
-            flex-direction: column;
-            padding: 1vh;
-            
-
+    #menu-2 {
+        position: absolute;
+        top: 7vh;
+        left: -7vw;
+        background-color: var(--headenfoot);
+        z-index: 1;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 1vh;
     }
-
     #menu-logo {
         position: relative;
         right: 13vw;
         color: white;
     }
-
-    #ham-logo {transition: 1s;}
-
+    #ham-logo {
+        transition: 1s;
+    }
     #ham-logo:hover {
         color: rgb(54, 82, 158);
     }
-   
-
-    #menu-logo summary{
+    #menu-logo summary {
         list-style: none;
         cursor: pointer;
     }
-
     #menu-2 li {
         float: left;
     }
-
     #menu-2 ul li {
         padding: 2vh;
-        
     }
-
     #log {
         display: block;
         position: relative;
         left: 30vw;
     }
-
-    #log a{
+    #log a {
         font-size: 2.1vw;
         color: white;
         text-decoration: none;
         font-family: var(--varelafont);
         padding: 1vw 1vh;
     }
-
     #log a:hover {
         background-color: #3f5f6e;
     }
-
     #log li {
         padding: 1vw;
     }
-   
     header nav ul {
         list-style-type: none;
     }
-
-
-    header nav li a{
+    header nav li a {
         text-decoration: none;
         padding: 1vw 1vh;
         font-size: 1.8vw;
         color: white;
         font-family: var(--varelafont);
         transition: 1s;
-
     }
-
-    header nav li a:hover{
+    header nav li a:hover {
         background-color: #3f5f6e;
     }
-
     main {
         display: flex;
         flex-direction: column;
         height: 83vh;
-        
     }
-
-           /*INLOG FORMULIER START*/
-
-           #formulier {
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            margin-top: 9vh;
-           
-        }
-    
-        #formulier form{
-            height: 50vh;
-            border: 1px solid black;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            padding: 3vw 5vh;
-            margin: 2vw 2vh;
-        }
-    
-        #formulier input {
-            padding: .5vw;
-            width: 45vw;
-            margin-left: 4vw;
-            height: 4vh;
-        }
-    
-        #formulier h1{
-            font-family: var(--varelafont);
-            text-align: center;
-            font-size: 2em;
-        }
-    
-        #log_in_btn {
-            width: 21vw;
-            height: 5vh;
-            background-color: var(--bannercolor);
-            color: white;
-            font-family: var(--lexendfont);
-            border: .5px solid;
-            font-size: 1em;
-            border-radius: 15px;
-            transition: 1s;
-        }
-    
-        #log_in_btn:hover {
-            background-color: #df6c2d;
-            cursor: pointer;
-        }
-
-        #formulier i {
-            margin-left: -4vw;
-            margin-top: 0.5vh;
-        }
-    
-        .user-icon{
-            position: fixed;
-            height: 2vh;
-            border: 1px solid black;
-            color: var(--bannerfont-color);
-            padding: 1vw;
-            
-        }
-    
-        .lock-icon {
-            position: fixed;
-            color: var(--bannerfont-color);
-            height: 2vh;
-            padding: 1vw;
-            border: 1px solid black;
-           
-        }
-    
-        #link-aanmeld{
-            color: blue;
-            text-decoration: none;
-            font-family: var(--lexendfont);
-        }
-    
-        #link-aanmeld:hover {
-            color: rgb(112, 112, 173);
-        }
-    
-           /*INLOG FORMULIER EIND*/
-      
-
+    /*INLOG FORMULIER START*/
+    #formulier {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-top: 9vh;
+    }
+    #formulier form {
+        height: 50vh;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 3vw 5vh;
+        margin: 2vw 2vh;
+    }
+    #formulier input {
+        padding: .5vw;
+        width: 45vw;
+        margin-left: 4vw;
+        height: 4vh;
+    }
+    #formulier h1 {
+        font-family: var(--varelafont);
+        text-align: center;
+        font-size: 2em;
+    }
+    #log_in_btn {
+        width: 21vw;
+        height: 5vh;
+        background-color: var(--bannercolor);
+        color: white;
+        font-family: var(--lexendfont);
+        border: .5px solid;
+        font-size: 1em;
+        border-radius: 15px;
+        transition: 1s;
+    }
+    #log_in_btn:hover {
+        background-color: #df6c2d;
+        cursor: pointer;
+    }
+    #formulier i {
+        margin-left: -4vw;
+        margin-top: 0.5vh;
+    }
+    .user-icon {
+        position: fixed;
+        height: 2vh;
+        border: 1px solid black;
+        color: var(--bannerfont-color);
+        padding: 1vw;
+    }
+    .lock-icon {
+        position: fixed;
+        color: var(--bannerfont-color);
+        height: 2vh;
+        padding: 1vw;
+        border: 1px solid black;
+    }
+    #link-aanmeld {
+        color: blue;
+        text-decoration: none;
+        font-family: var(--lexendfont);
+    }
+    #link-aanmeld:hover {
+        color: rgb(112, 112, 173);
+    }
+    /*INLOG FORMULIER EIND*/
     footer {
         display: flex;
         width: 100vw;
@@ -725,13 +561,10 @@
         justify-content: flex-start;
         align-items: center;
     }
-
     footer p {
         color: white;
         font-size: 2vw;
         margin-left: 1vw;
         font-family: var(--varelafont);
-        
     }
 }
-
