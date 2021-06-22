@@ -101,7 +101,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
         <section class="formule">
         <article>
                 <h1>Tafels van...</h1><br><br>
-                <form onsubmit="return genereerTafel();">
+                <form onsubmit="return genereerTafel()">
                     <p>
                         <input id="tafel-vermenigvuldigtal" value="5" type="number">
                     </p>
@@ -112,7 +112,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                         <button id="tafel-knop" type="submit">Genereer</button>
                     </p>
                     <p>
-                        <article id="tafels"></article>
+                        <textarea readonly id="tafels"></textarea>
                     </p>
                 </form>
                 </article>
@@ -139,7 +139,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
         <section class="formule">
             <article>
                 <h1>De machtreeks van..</h1><br><br>
-                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <input type="number" id=macht1 name="macht" title="Type de grondgetal in" placeholder="5">
                 <button id="btn-2" onclick="machtReeks()">Genereer</button><br> <br>
                 <article id="machten"></article>
             </article>
@@ -190,7 +190,7 @@ ingevulde getal loopt.
         <section class="formule">
             <article>
                 <h1>De breukenreeks van..</h1><br><br>
-                <input type="number" id=breuk1 name="breuk" title="Type de noemer in" placeholder="Vul de noemer in">
+                <input type="number" id=breuk1 name="breuk" title="Type de noemer in" placeholder="3">
                 <button onclick="breukenReeks()">Genereer</button><br> <br>
                 <article id="breuken"></article>
             </article>
@@ -218,7 +218,7 @@ ingevulde getal loopt.
         <section class="formule">
             <article>
                 <h1>De machtenreeks van..</h1><br><br>
-                <input type="number" id=kwad1 name="kwad" title="Type de grondgetal in" placeholder="Vul de grondgetal in">
+                <input type="number" id=kwad1 name="kwad" title="Type de grondgetal in" placeholder="8">
                 <button onclick="kwadraatReeks()">Genereer</button><br> <br>
                 <article id="kwadraat"></article>
             </article>
