@@ -1,5 +1,5 @@
 window.onload = function() {
-
+    genereerTafel();
 
 
 }
@@ -9,7 +9,7 @@ window.onload = function() {
 function genereerTafel() {
     var vermenigvuldigtal = document.getElementById("tafel-vermenigvuldigtal").value;
     var maxVermenigvuldiger = document.getElementById("tafel-max-vermenigvuldiger").value;
-    var antwoordVeld = document.getElementById("tafel");
+    var antwoordVeld = document.getElementById("tafels");
 
     antwoordVeld.value = "";
 

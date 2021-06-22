@@ -23,8 +23,8 @@
     --outputbackground: #f2f2f2;
 }
 
-#kop h1 {
-    color: var(--headenfoot);
+#kop {
+    color: white;
 }
 
 
