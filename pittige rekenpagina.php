@@ -17,7 +17,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
     <meta name="author" content="Noortje Steenbergen">
     <meta name="keywords" content="">
     <title>Pittige rekenpagina</title>
-    <link rel="stylesheet" type="text/css" href="CSS/fib&priem.css">
+    <link rel="stylesheet" type="text/css" href="CSS/pittige rekenpagina.css">
 </head>
 
 <body>
