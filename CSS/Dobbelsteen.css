@@ -161,7 +161,6 @@ main img, input {
         background-repeat: no-repeat;
         background-position: center top;
         min-width: 900px;
-        z-index: -1;
     }
 
     div.dice{
@@ -189,6 +188,14 @@ main img, input {
         border-radius: 6px;
     }
 
+    .text, button, #status {
+        position: relative;
+        margin-left: 35%;
+        top: 30vh;
+        z-index: 1;
+        align-items: center;
+        display: table;
+    }
     footer {
         position: absolute;
         display: flex;
