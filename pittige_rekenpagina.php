@@ -9,7 +9,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
 <!doctype html>
 <html>
 <head>
-    <script type="text/javascript" src="JS/fipri.js"></script>
+    <script type="text/javascript" src="JS/priem_ontbind.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="language" content="NL">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,10 +56,10 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
         <section class="formule">
             <article>
                 <h1>Rij van Fibonacci</h1><br><br>
-                <input type="number" id=input_fib name="fibonacci-getal" title="Type element in" value="5">
-                <button id="btn-1" onclick="Fibonacci_genereren()">Genereer</button><br><br>
-                <article id="fibonacci-output"></article>
-            </article>
+                <input id="nummer" type="number" />
+                <button id="priem-button">Find Factors</button>
+                <article id="priemgetallen"></article>
+                </article>
         </section>
 
                 <!--fibonacci eind-->
