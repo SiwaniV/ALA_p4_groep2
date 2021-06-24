@@ -86,13 +86,9 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
         <section class="formule">
             <article>
                 <h1>Alle priemgetallen tot...</h1><br><br>
-                <form action="" method="post" id="prime">
-                    <div>
-                        <input type="text" id="number" name="number" placeholder="Number" />
-                        <input id="button-priem" type="submit" value="Genereer" /><br><br>
-                    </div>
-                </form>
-                <div id="output"></div>
+                <input id="nummer" type="number" />
+<button id="priem-button">Find Factors</button>
+<article id="priemgetallen"></article>
             </article>
         </section>
         <!--priemgetallen eind-->
