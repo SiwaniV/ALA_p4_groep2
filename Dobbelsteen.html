@@ -10,6 +10,7 @@
     <meta name="keywords" content="">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="CSS/Dobbelsteen.css">
+    <script src="JS/Dobbelsteen.js"></script>
 </head>
 
 <body>
@@ -42,16 +43,11 @@
     </header>
     
     <main>>          
-            <script src="js/Dobbelsteen.js"></script>
-            <img src="Images/Dobbelsteen/d1.gif" name="mydice">
-            <form>
-            <input type="button" value="Throw dice!" onClick="throwdice()">
-            </form>
-            
-            <img src="Images/Dobbelsteen/d1.gif" name="mydice">
-            <form>
-            <input type="button" value="Throw dice!" onClick="throwdice()">
-            </form>
+        <div id="die1" class="dice">0</div>
+        <div id="die2" class="dice">0</div>
+        <button onclick="rollDice()">Roll Dice</button>
+        <h2 id="status" style="clear:left"></h2>
+        <div class="vlak"></div>
     </main>
 
     <footer>
