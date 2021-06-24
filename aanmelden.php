@@ -8,14 +8,14 @@ if (isset($_POST['submit'])) {
 
          require("database.php");
 
-         $naam = trim($_POST['inlogcode']);
-         $password = trim($_POST['wachtwoord']);
+         $inlogcode = trim($_POST['inlogcode']);
+         $wachtwoord = trim($_POST['wachtwoord']);
          $option = [
             'cost' => 10
         ];
         
-        $pass = password_hash($password, PASSWORD_BCRYPT, $option);
-         $sql = "INSERT INTO gebruikers VALUES (NULL, '$naam', '$pass')";
+    
+         $sql = "INSERT INTO gebruikers VALUES (NULL, '$inlogcode', '$wachtwoord')";
 
          if ($conn->query($sql)) {
              echo "Toegevoegd aan de database";
