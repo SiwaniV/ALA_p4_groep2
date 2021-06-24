@@ -1,7 +1,31 @@
 <?php
-
 $error = "";
 
+
+if (isset($_POST['submit'])) {
+    //checken of username en password ingevuld zijn
+     if (!empty($_POST['inlogdcode']) && !empty($_POST['wachtwoord'])) {
+
+         require("database.php");
+
+         $inlogcode = trim($_POST['inlogcode']);
+         $wachtwoord = trim($_POST['wachtwoord']);
+         $option = [
+            'cost' => 10
+        ];
+        
+    
+         $sql = "INSERT INTO gebruikers VALUES (NULL, '$inlogcode', '$wachtwoord')";
+
+         if ($conn->query($sql)) {
+             echo "Toegevoegd aan de database";
+         }
+
+
+   }
+}
+  
+   
 ?>
 	
 
