@@ -17,7 +17,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
     <meta name="author" content="Noortje Steenbergen">
     <meta name="keywords" content="">
     <title>Pittige rekenpagina</title>
-    <link rel="stylesheet" type="text/css" href="CSS/pittige rekenpagina.css">
+    <link rel="stylesheet" type="text/css" href="CSS/pittige_rekenpagina.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                 <article>
                     <h1>Wat is binair en hexadecimaal?</h1>
                  <p>De Fibonacci-reeks is een eigenaardige reeks getallen uit de klassieke wiskunde <br> die toepassingen heeft gevonden in geavanceerde wiskunde, natuur, statistiek, informatica en Agile Development.</p>
-                        <a href="https://en.wikipedia.org/wiki/Fibonacci_number" id="info" target="_blank">
+                        <a href="https://nl.wikipedia.org/wiki/Hexadecimaal" id="info" target="_blank">
                           Meer info...
                         </a>
                 </article>
@@ -55,7 +55,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
 
         <section class="formule">
             <article>
-                <h1>Rij van Fibonacci</h1><br><br>
+                <h1>Binair en Hexadecimaal</h1><br><br>
                 <input type="number" id=input_fib name="fibonacci-getal" title="Type element in" value="5">
                 <button id="btn-1" onclick="Fibonacci_genereren()">Genereer</button><br><br>
                 <article id="fibonacci-output"></article>
@@ -78,14 +78,14 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                         
                         Omdat elk natuurlijk getal een product van priemgetallen is, zijn priemgetallen de belangrijkste natuurlijke getallen (hoofdstelling van de elementaire getallentheorie). Daardoor vervullen priemgetallen op het gebied van getallen een vergelijkbare rol als scheikundige elementen op het gebied van verbindingen.
                     <br><br>
-                    Met deze generator vul je een getal in dat je maximum voorstelt en krijg je een reeks van priemgetallen terug.</p>
+                    Met deze generator vul je een getal in en krijg je het ingevoerde getal ontbonden in priemfactoren eruit.</p>
                     </article>
                 </section>
 
 
         <section class="formule">
             <article>
-                <h1>Alle priemgetallen tot...</h1><br><br>
+                <h1>Factorizer</h1><br><br>
                 <form action="" method="post" id="prime">
                     <div>
                         <input type="text" id="number" name="number" placeholder="Number" />
@@ -104,7 +104,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                <p>De Fibonacci-reeks is uitgevonden door de Italiaan Leonardo Pisano Bigollo (1180-1250), die in de wiskundige geschiedenis bekend is onder verschillende namen: Leonardo van Pisa (Pisano betekent "van Pisa") en Fibonacci (wat "zoon van Bonacci" betekent).Fibonacci, de zoon van een Italiaanse zakenman uit de stad Pisa, groeide tijdens de middeleeuwen op in een handelskolonie in Noord-Afrika. <br><br> Italianen waren enkele van de meest bekwame handelaren en kooplieden van de westerse wereld tijdens de middeleeuwen, en ze hadden rekenkunde nodig om hun commerciële transacties bij te houden. Wiskundige berekeningen werden gemaakt met behulp van het Romeinse cijfersysteem (I, II, III, IV, V, VI, enz.), maar dat systeem maakte het moeilijk om optellen, aftrekken, <br>  vermenigvuldigen en delen uit te voeren die handelaren nodig hadden om bij te houden hun transacties.</p>
             </article>
             <article>
-                <img src="Images_fibonacci_priemgetallen/Fibonacci_reeks.jpg">
+                <img src="Images/school.jpg">
             </article>
         </section>
    
