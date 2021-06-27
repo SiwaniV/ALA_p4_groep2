@@ -190,12 +190,18 @@ main img, input {
 
     .text, button, #status {
         position: relative;
-        margin-left: 35%;
+        margin-left: 45%;
         top: 30vh;
         z-index: 1;
         align-items: center;
         display: table;
     }
+
+    #status {
+        position: relative;
+        top: 46vh;
+    }
+
     footer {
         position: absolute;
         display: flex;
