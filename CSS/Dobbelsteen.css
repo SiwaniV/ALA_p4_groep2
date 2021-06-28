@@ -174,7 +174,7 @@ main img, input {
         text-align: center;
         margin: 5px;
         left: 43.8vw;
-        top: 45vh;
+        top: 42vh;
         z-index: 1;
     }
 
@@ -182,6 +182,7 @@ main img, input {
         width: 500px;
         height: 400px;
         background-color: white;
+        align-items: center;
         opacity: 70%;
         margin-left: 35%;
         margin-top: 10%;
@@ -190,16 +191,32 @@ main img, input {
 
     .text, button, #status {
         position: relative;
-        margin-left: 45%;
-        top: 30vh;
+        left: 74vh;
+        top: 15vh;
         z-index: 1;
         align-items: center;
         display: table;
+        font-family: var(--varelafont);
+    }
+
+
+    text {
+        margin-right: 20vw;
+    }
+
+    button {
+        top: 44vh;
+        left: 39vw;
+        padding: 2px;
     }
 
     #status {
-        position: relative;
-        top: 46vh;
+        position: absolute;
+        top: 55vh;
+        margin: 0;
+        padding: 0;
+        left: 44vw;
+        width: 10%;
     }
 
     footer {
