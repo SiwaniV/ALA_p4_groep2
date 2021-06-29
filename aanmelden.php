@@ -3,10 +3,10 @@ $error = "";
 
 
 if (isset($_POST['submit'])) {
-    //checken of username en password ingevuld zijn
+    //checken of inlogcode en wachtwoord ingevuld zijn
      if (!empty($_POST['inlogdcode']) && !empty($_POST['wachtwoord'])) {
 
-         require("database.php");
+        require("database_algebraSmart.php");
 
          $inlogcode = trim($_POST['inlogcode']);
          $wachtwoord = trim($_POST['wachtwoord']);
