@@ -5,7 +5,7 @@ $message = "";
 
 if (isset($_POST['submit'])) {
     //checken of inlogcode en wachtwoord ingevuld zijn
-     if (!empty($_POST['inlogdcode']) && !empty($_POST['wachtwoord'])) {
+     if (!empty($_POST['inlogcode']) && !empty($_POST['wachtwoord'])) {
 
         require("database_algebraSmart.php");
 
@@ -19,7 +19,8 @@ if (isset($_POST['submit'])) {
          $sql = "INSERT INTO gebruikers VALUES (NULL, '$inlogcode', '$wachtwoord')";
 
          if ($conn->query($sql)) {
-             $message = "Account aangemaakt, log nu in";
+            header("Location: inloggen.php");
+            exit();
          }
 
 
@@ -58,7 +59,6 @@ if (isset($_POST['submit'])) {
 
         <section id="formulier">
             <form method="post" action="">
-            <?php echo $message;?>
             <h1>Maak een account</h1>
                 <div>
                     <i class="fas fa-user-alt user-icon"></i>
