@@ -1,5 +1,6 @@
 <?php
 $error = "";
+$message = "";
 
 
 if (isset($_POST['submit'])) {
@@ -18,7 +19,7 @@ if (isset($_POST['submit'])) {
          $sql = "INSERT INTO gebruikers VALUES (NULL, '$inlogcode', '$wachtwoord')";
 
          if ($conn->query($sql)) {
-             echo "Toegevoegd aan de database";
+             $message = "Account aangemaakt, log nu in";
          }
 
 
@@ -57,7 +58,7 @@ if (isset($_POST['submit'])) {
 
         <section id="formulier">
             <form method="post" action="">
-            <?php echo $error;?>
+            <?php echo $message;?>
             <h1>Maak een account</h1>
                 <div>
                     <i class="fas fa-user-alt user-icon"></i>
