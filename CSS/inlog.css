@@ -23,6 +23,10 @@
     --outputbackground: #f2f2f2;
 }
 
+#formulier form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /*DESKTOP*/
 
@@ -124,7 +128,6 @@
     }
     #formulier form {
         height: 50vh;
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -159,7 +162,6 @@
     .user-icon {
         position: fixed;
         height: 1.84vh;
-        border: 1px solid black;
         color: var(--bannerfont-color);
         padding: 1vw;
     }
@@ -168,7 +170,6 @@
         color: var(--bannerfont-color);
         height: 1.89vh;
         padding: 1vw;
-        border: 1px solid black;
     }
     #link-aanmeld {
         color: blue;
@@ -294,7 +295,6 @@
     }
     #formulier form {
         height: 50vh;
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -335,7 +335,6 @@
     .user-icon {
         position: fixed;
         height: 2vh;
-        border: 1px solid black;
         color: var(--bannerfont-color);
         padding: 1vw;
     }
@@ -344,7 +343,6 @@
         color: var(--bannerfont-color);
         height: 2vh;
         padding: 1vw;
-        border: 1px solid black;
     }
     #link-aanmeld {
         color: blue;
@@ -492,7 +490,6 @@
     }
     #formulier form {
         height: 50vh;
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -503,8 +500,8 @@
     #formulier input {
         padding: .5vw;
         width: 45vw;
-        margin-left: 4vw;
         height: 4vh;
+        margin-left: 1vw;
     }
     #formulier h1 {
         font-family: var(--varelafont);
@@ -531,18 +528,12 @@
         margin-top: 0.5vh;
     }
     .user-icon {
-        position: fixed;
         height: 2vh;
-        border: 1px solid black;
         color: var(--bannerfont-color);
-        padding: 1vw;
     }
     .lock-icon {
-        position: fixed;
         color: var(--bannerfont-color);
         height: 2vh;
-        padding: 1vw;
-        border: 1px solid black;
     }
     #link-aanmeld {
         color: blue;

@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
                 <div>
                     <i class="fas fa-user-alt user-icon"></i>
                     <input type="text" name="inlogcode" placeholder="Inlogcode" title="Typ je inlogcode in" required>
-                </div> <br><br>
+                </div> 
                 <div>
                     <i class="fas fa-lock lock-icon"></i>
                     <input type="password" name="wachtwoord" placeholder="Wachtwoord" title="Typ je wachtwoord in" required>
