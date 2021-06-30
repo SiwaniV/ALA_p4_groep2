@@ -9,7 +9,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
 <!doctype html>
 <html>
 <head>
-    <script type="text/javascript" src="JS/fipri.js"></script>
+    <script type="text/javascript" src="JS/pittig_rekenen.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="language" content="NL">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,6 +60,9 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                 <button id="btn-1" onclick="Fibonacci_genereren()">Genereer</button><br><br>
                 <article id="fibonacci-output"></article>
             </article>
+
+            
+
         </section>
 
                 <!--fibonacci eind-->
@@ -92,7 +95,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                         <input id="button-priem" type="submit" value="Genereer" /><br><br>
                     </div>
                 </form>
-                <div id="output"></div>
+                <div id="output"></div>           
             </article>
         </section>
         <!--priemgetallen eind-->

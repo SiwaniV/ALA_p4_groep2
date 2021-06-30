@@ -11,7 +11,7 @@
                 <li><a href="eenvoudigrekenen.php">Eenvoudig rekenen</a></li>
                 <li><a href="fibopriem.php">Fibonacci/priemgetallen</a></li>
                 <li><a href="pittige_rekenpagina.php">Pittig rekenen</a></li>
-                <li><a href="#">Dobbelstenen</a></li>
+                <li><a href="Dobbelsteen.php">Dobbelstenen</a></li>
                 <li><a href="#">Spel</a></li>
             </ul>
         </nav>
