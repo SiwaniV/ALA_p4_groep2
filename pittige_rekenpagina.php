@@ -17,7 +17,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
     <meta name="author" content="Noortje Steenbergen">
     <meta name="keywords" content="">
     <title>Pittige rekenpagina</title>
-    <link rel="stylesheet" type="text/css" href="CSS/pittige_rekenpagina.css">  
+    <link rel="stylesheet" type="text/css" href="CSS/pittige_rekenpagina.css">
 </head>
 
 <body>
@@ -50,17 +50,12 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
         </section>
 
         <section class="formule">
-            <h1>Binair en Hexadecimaal</h1><br><br>
-            <div>
-                <div ng-controller="ConvertController">
-                <div>
-                <input type="text" ng-model="input" ng-change="convert()" select-text />
-                </div>
-                <div class="result">{{result}}
-                <select ng-model="base" ng-options="b.label for b in bases" ng-change="convert()"></select>
-                </div>
-                </div>
-            </div>
+            <article>
+                <h1>Binair en Hexadecimaal</h1><br><br>
+                <input type="number" id=input_fib name="fibonacci-getal" title="Type element in" value="5">
+                <button id="btn-1" onclick="Fibonacci_genereren()">Genereer</button><br><br>
+                <article id="fibonacci-output"></article>
+            </article>
         </section>    
 
         <section class="blok">
