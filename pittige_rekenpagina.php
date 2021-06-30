@@ -18,6 +18,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
     <meta name="keywords" content="">
     <title>Pittige rekenpagina</title>
     <link rel="stylesheet" type="text/css" href="CSS/pittige_rekenpagina.css">
+   
 </head>
 
 <body>
@@ -29,7 +30,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
             <div id="laag">
                 <article>
                     <h1>Wat is binair en hexadecimaal?</h1>
-                 <p>De Fibonacci-reeks is een eigenaardige reeks getallen uit de klassieke wiskunde <br> die toepassingen heeft gevonden in geavanceerde wiskunde, natuur, statistiek, informatica en Agile Development.</p>
+                 <p>Binaire getallen kunnen alleen maar 1 of 0 zijn. Hexadecimale getallen kunnen 0-9 of A-F zijn <br> </p>
                         <a href="https://nl.wikipedia.org/wiki/Hexadecimaal" id="info" target="_blank">
                           Meer info...
                         </a>
@@ -42,21 +43,26 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                 <img src="Images/lamp.png">
             </article>
                 <article class="uitleg">
-            <p>Fibonacci is een reeks getallen die begint bij twee getallen: eerst 0 en vervolgens 1. Het volgende getal komt telkens voort uit de som van de voorgaande twee getallen.
+            <p>Hexadecimaal betekent letterlijk zestientallig. Het is een talstelsel waarbij niet, zoals gebruikelijk, met tien cijfers wordt gewerkt, maar met zestien cijfers. De cijfers 0 t/m 9 worden daarom uitgebreid met 'A' (=10) t/m 'F' (=15), ook wel 'a' t/m 'f'. In deze context zijn dat dus ook cijfers, geen letters. In de computerwereld wordt de hexadecimale voorstelling van getallen veel gebruikt, omdat deze manier van representeren goed aansluit bij de binaire representatie in de computer.
 
-                <br><br>  Na de eerste twee getallen komt dus weer een 1 (0 + 1 = 1)vervolgens komt een 2 (1 + 1), daarna een 3 ( 1+ 2). Het begin van de rij van Fibonacci ziet er als volgt uit:
-                
-                0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144..  <br> <br>
-            Met deze generator vul je een getal in dat je maximum voorstelt en krijg je een reeks van getallen die volgens het Fibonacci formule berekend wordt</p>
+            Het woord 'hexadecimaal' wordt vaak afgekort als hex, hoewel dit 'zes' betekent.<br> <br>
+            Met deze generator vul je een binair getal in en je krijgt er een hexadecimaal getal uit</p>
             </article>
         </section>
 
         <section class="formule">
             <article>
                 <h1>Binair en Hexadecimaal</h1><br><br>
-                <input type="number" id=input_fib name="fibonacci-getal" title="Type element in" value="5">
-                <button id="btn-1" onclick="Fibonacci_genereren()">Genereer</button><br><br>
-                <article id="fibonacci-output"></article>
+                <div>
+            <div ng-controller="ConvertController">
+        <div>
+            <input type="text" ng-model="input" ng-change="convert()" select-text />
+        </div>
+        <div class="result">{{result}}
+            <select ng-model="base" ng-options="b.label for b in bases" ng-change="convert()"></select>
+        </div>
+    </div>
+            </div>
             </article>
         </section>    
 
@@ -94,7 +100,8 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
 
         <section id="meaning">
             <article class="text">
-               <p>De Fibonacci-reeks is uitgevonden door de Italiaan Leonardo Pisano Bigollo (1180-1250), die in de wiskundige geschiedenis bekend is onder verschillende namen: Leonardo van Pisa (Pisano betekent "van Pisa") en Fibonacci (wat "zoon van Bonacci" betekent).Fibonacci, de zoon van een Italiaanse zakenman uit de stad Pisa, groeide tijdens de middeleeuwen op in een handelskolonie in Noord-Afrika. <br><br> Italianen waren enkele van de meest bekwame handelaren en kooplieden van de westerse wereld tijdens de middeleeuwen, en ze hadden rekenkunde nodig om hun commerciële transacties bij te houden. Wiskundige berekeningen werden gemaakt met behulp van het Romeinse cijfersysteem (I, II, III, IV, V, VI, enz.), maar dat systeem maakte het moeilijk om optellen, aftrekken, <br>  vermenigvuldigen en delen uit te voeren die handelaren nodig hadden om bij te houden hun transacties.</p>
+               <p>Priemgetallen hebben invloed uitgeoefend op veel kunstenaars en schrijvers. De Franse componist Olivier Messiaen gebruikte priemgetallen om zijn ametrische muziek via "natuurlijke fenomenen" te creëren. In werken zoals La Nativite du Seigneur (1935) en Quatre etudes de rythme (1949-50) maakte hij tegelijkertijd gebruik van motieven, waarvan de lengte werd gegeven door verschillende priemgetallen om zo onvoorspelbare ritmes te creëren: de priemgetallen 41, 43, 47 en 53 komen in een van zijn études voor. Volgens Messiaen werd deze manier van componeren "geïnspireerd door de bewegingen van de natuur, de bewegingen van vrije en ongelijke duur". <br><br>In zijn sciencefictionnovelle Contact, later omgewerkt tot de film met dezelfde naam, stelde de NASA-wetenschapper Carl Sagan voor dat priemgetallen gebruikt konden worden als een middel om met buitenaardse wezens te communiceren, een idee dat hij informeel in 1975 voor het eerst samen had ontwikkeld met de Amerikaanse astronoom Frank Drake.
+                <br><br>Veel films weerspiegelen een populaire fascinatie voor de geheimen van de priemgetallen en de cryptografie: films zoals Cube, Sneakers, The Mirror Has Two Faces en A Beautiful Mind, waarvan de laatste gebaseerd is op de biografie door Sylvia Nasar van de wiskundige en Nobelprijswinnaar John Forbes Nash. Priemgetallen worden ook gebruikt als een metafoor voor eenzaamheid en isolement in de roman van Paolo Giordano De eenzaamheid van de priemgetallen, waarin priemgetallen worden afgeschilderd als de "buitenstaanders" onder de gehele getallen.</p>
             </article>
             <article>
                 <img src="Images/school.jpg">
