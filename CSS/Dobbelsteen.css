@@ -155,7 +155,7 @@ main img, input {
     }
 
     main{
-        min-height: 860px;
+        min-height: 810px;
         background-image: url(../Images/mockup_home.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -173,14 +173,14 @@ main img, input {
         font-size: 24px;
         text-align: center;
         margin: 5px;
-        left: 43.8vw;
-        top: 42vh;
+        left: 47vw;
+        top: 32vh;
         z-index: 1;
     }
 
     .vlak {
         width: 500px;
-        height: 400px;
+        height: 300px;
         background-color: white;
         align-items: center;
         opacity: 70%;
@@ -191,7 +191,7 @@ main img, input {
 
     .text, button, #status {
         position: relative;
-        left: 74vh;
+        left: 55vh;
         top: 15vh;
         z-index: 1;
         align-items: center;
@@ -205,18 +205,18 @@ main img, input {
     }
 
     button {
-        top: 44vh;
-        left: 39vw;
+        top: 34vh;
+        left: 40.5vw;
         padding: 2px;
     }
 
     #status {
         position: absolute;
-        top: 55vh;
+        top: 45vh;
         margin: 0;
         padding: 0;
-        left: 44vw;
-        width: 10%;
+        left: 41vw;
+        width: 25%;
     }
 
     footer {
@@ -359,6 +359,56 @@ main img, input {
         
     }
 
+    div.dice{
+        position: relative;
+        float: left;
+        width: 32px;
+        background: #f5f5f5;
+        border: #999 1px solid;
+        padding: 10px;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+        left: 47vw;
+        top: 32vh;
+        z-index: 1;
+    }
+
+    .vlak {
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        align-items: center;
+        opacity: 70%;
+        margin-left: 15%;
+        border-radius: 6px;
+    }
+
+    .text, button, #status {
+        position: relative;
+        left: 25vh;
+        top: 10vh;
+        z-index: 1;
+        align-items: center;
+        display: table;
+        font-family: var(--varelafont);
+    }
+
+
+    text {
+        margin-right: 20vw;
+    }
+
+
+    #status {
+        position: absolute;
+        top: 45vh;
+        margin: 0;
+        padding: 0;
+        left: 41vw;
+        width: 25%;
+    }
+
     #tekstvlak1 p{
         color: white;
         padding-top: 15vh;
@@ -383,6 +433,7 @@ main img, input {
          background-position: center top;
          min-width: 900px;
      }
+
 
      footer {
         bottom: 0;
@@ -504,7 +555,61 @@ main img, input {
         background-color: #3f5f6e;
     }
 
+    div.dice{
+        position: relative;
+        float: left;
+        width: 32px;
+        background: #f5f5f5;
+        border: #999 1px solid;
+        padding: 10px;
+        font-size: 24px;
+        text-align: center;
+        margin: 5px;
+        left: 47vw;
+        top: 32vh;
+        z-index: 1;
+    }
 
+    .vlak {
+        width: 500px;
+        height: 300px;
+        background-color: white;
+        align-items: center;
+        opacity: 70%;
+        margin-left: 35%;
+        margin-top: 10%;
+        border-radius: 6px;
+    }
+
+    .text, button, #status {
+        position: relative;
+        left: 55vh;
+        top: 15vh;
+        z-index: 1;
+        align-items: center;
+        display: table;
+        font-family: var(--varelafont);
+    }
+
+
+    text {
+        margin-right: 20vw;
+    }
+
+    button {
+        top: 34vh;
+        left: 40.5vw;
+        padding: 2px;
+    }
+
+    #status {
+        position: absolute;
+        top: 45vh;
+        margin: 0;
+        padding: 0;
+        left: 41vw;
+        width: 25%;
+    }
     footer {
         position: absolute;
         display: flex;
