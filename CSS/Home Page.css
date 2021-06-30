@@ -167,8 +167,9 @@ main {
         min-width: 900px;
     }
 
-    .afb6 img{ 
-        width: 8vw;
+    article#img6{ 
+        margin-left: 20vw;
+        
     }
 
     footer {

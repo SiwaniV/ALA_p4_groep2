@@ -21,9 +21,9 @@
 <?php include('_header.php'); ?>
     
     <main>
-    <article id="img6"> 
-    <img src="images/afb6.png" alt="">
-    </article>
+        <article id="img6"> 
+            <img src="Images/afb6.png" alt="">
+        </article>
     
         <article id="tekstvlak1">
             <p>Welkom op de website Algebra Smart. Op deze website kun je uitleg<br> 
@@ -34,8 +34,8 @@
                 het  ‘Spel’ tabblad.
             </p>
         </article>
-
     
+
         <article id="tekstvlak2">
             <p>Wil je behalve de uitlegpagina<br>  
                 ook de rest verkennen maak<br>
