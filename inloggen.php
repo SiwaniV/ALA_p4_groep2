@@ -25,21 +25,23 @@ if (isset($_POST['submit'])) {
          if($result = $conn->query($sql)) {
 
             $dbuser = $result->fetch_row();
-            $dbpass = $dbuser[2];
+            if($dbuser){
+                $dbpass = $dbuser[2];
 
-            // if (password_verify($pass, $dbpass)) {
-            if($wachtwoord == $dbpass){
-                $_SESSION['ingelogd'] = true;
-                $_SESSION['inlogcode'] = $inlogcode;
-                header("Location: index.php");
-                exit();
-          } else {
-              $error = "Niet de juiste gegevens ingevuld <br>";
-          }
+                // if (password_verify($pass, $dbpass)) {
+                if($wachtwoord == $dbpass){
+                    $_SESSION['ingelogd'] = true;
+                    $_SESSION['inlogcode'] = $inlogcode;
+                    header("Location: index.php");
+                    exit();
+                } else {
+                    $error = "Niet de juiste gegevens ingevuld <br>";
+                }
+            }else {
+                $error = "Niet de juiste gegevens ingevuld <br>";
+            }
         }
-    } else {
-        $error = "Inlogcode en wachtwoord is verplicht <br>";
-    }
+    } 
 }
    
 ?>

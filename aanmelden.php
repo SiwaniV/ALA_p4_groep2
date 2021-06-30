@@ -1,12 +1,13 @@
 <?php
 $error = "";
+$message = "";
 
 
 if (isset($_POST['submit'])) {
-    //checken of username en password ingevuld zijn
-     if (!empty($_POST['inlogdcode']) && !empty($_POST['wachtwoord'])) {
+    //checken of inlogcode en wachtwoord ingevuld zijn
+     if (!empty($_POST['inlogcode']) && !empty($_POST['wachtwoord'])) {
 
-         require("database.php");
+        require("database_algebraSmart.php");
 
          $inlogcode = trim($_POST['inlogcode']);
          $wachtwoord = trim($_POST['wachtwoord']);
@@ -18,7 +19,8 @@ if (isset($_POST['submit'])) {
          $sql = "INSERT INTO gebruikers VALUES (NULL, '$inlogcode', '$wachtwoord')";
 
          if ($conn->query($sql)) {
-             echo "Toegevoegd aan de database";
+            header("Location: inloggen.php");
+            exit();
          }
 
 
@@ -57,12 +59,11 @@ if (isset($_POST['submit'])) {
 
         <section id="formulier">
             <form method="post" action="">
-            <?php echo $error;?>
             <h1>Maak een account</h1>
                 <div>
                     <i class="fas fa-user-alt user-icon"></i>
                     <input type="text" name="inlogcode" placeholder="Inlogcode" title="Typ je inlogcode in" required>
-                </div> <br><br>
+                </div> 
                 <div>
                     <i class="fas fa-lock lock-icon"></i>
                     <input type="password" name="wachtwoord" placeholder="Wachtwoord" title="Typ je wachtwoord in" required>
