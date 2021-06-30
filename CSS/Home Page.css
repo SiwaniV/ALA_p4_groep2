@@ -167,7 +167,9 @@ main {
         min-width: 900px;
     }
 
-
+    .afb6 img{ 
+        width: 8vw;
+    }
 
     footer {
         display: flex;

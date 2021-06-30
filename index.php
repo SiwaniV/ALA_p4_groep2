@@ -21,7 +21,10 @@
 <?php include('_header.php'); ?>
     
     <main>
-
+    <article id="img6"> 
+    <img src="images/afb6.png" alt="">
+    </article>
+    
         <article id="tekstvlak1">
             <p>Welkom op de website Algebra Smart. Op deze website kun je uitleg<br> 
                 vinden over de onderwerpen zoals; priemgetallen, tafelreeksen,<br> 
