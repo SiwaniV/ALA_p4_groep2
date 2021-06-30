@@ -20,7 +20,7 @@
 
     <article id="log">
         <?php if(isset($_SESSION['ingelogd']) && $_SESSION['ingelogd'] == true) { ?>
-            <p></p><a class="logout" href="uitloggen.php" onclick="return confirm('Ben je zeker dat je je wilt afmelden?')">Uitloggen</a></p>
+            <p><a class="logout" href="uitloggen.php" onclick="return confirm('Ben je zeker dat je je wilt afmelden?')">Uitloggen</a></p>
         <?php }else { ?>
             <p><a href="inloggen.php">Inloggen</a></p>
             <p><a href="aanmelden.php">Aanmelden</a></p>
