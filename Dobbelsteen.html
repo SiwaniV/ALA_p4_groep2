@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!doctype html>
 <html>
 
@@ -8,40 +12,21 @@
     <meta name="description" content="">
     <meta name="author" content="Tim Slaghekke">
     <meta name="keywords" content="">
+<<<<<<< HEAD:Dobbelsteen.html
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="CSS/Dobbelsteen.css">
     <script src="JS/Dobbelsteen.js"></script>
+=======
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Home Page.css">
+>>>>>>> main:index.php
 </head>
 
 <body>
     
-    <header id="desktop">
-
-        <article id="logo">
-                <a href="#"><img src="Images/Logo_desktop.png"></a>
-        </article>
-
-        <article id="menu-logo">
-            <input type="checkbox" id="ham-checkbox">
-            <label id="ham-logo" for="ham-checkbox">☰</label>
-            <nav id="knop-1">
-                <ul id="menu-2">
-                    <li><a href="#">Presentatie</a></li>
-                    <li><a href="#">Eenvoudig rekenen</a></li>
-                    <li><a href="#">Fibonacci/priemgetallen</a></li>
-                    <li><a href="#">Pittig rekenen</a></li>
-                    <li><a href="#">Dobbelstenen</a></li>
-                    <li><a href="#">Spel</a></li>
-                </ul>
-            </nav>
-        </article>
-
-        <article id="log">
-            <p><a href="#">Inloggen</a></li><br></p>
-            <p><a href="#">Aanmelden</a></li></p>
-        </article>
-    </header>
+<?php include('_header.php'); ?>
     
+<<<<<<< HEAD:Dobbelsteen.html
     <main>         
         <div id="die1" class="dice">0</div>
         <div id="die2" class="dice">0</div>
@@ -50,6 +35,30 @@
         <h2 id="status"></h2>
         <button onclick="rollDice()">Roll Dice</button>
         <div class="vlak"></div>
+=======
+    <main>
+        <article id="img6"> 
+            <img src="Images/afb6.png" alt="">
+        </article>
+    
+        <article id="tekstvlak1">
+            <p>Welkom op de website Algebra Smart. Op deze website kun je uitleg<br> 
+                vinden over de onderwerpen zoals; priemgetallen, tafelreeksen,<br> 
+                breukreeksen op de ‘presentatiepagina’ staat, elk onderwerp<br> 
+                te vinden op deze website, uitgelegd. Mocht je van al dat<br> 
+                harde leren even een pauze willen nemen klik dan op<br> 
+                het  ‘Spel’ tabblad.
+            </p>
+        </article>
+    
+
+        <article id="tekstvlak2">
+            <p>Wil je behalve de uitlegpagina<br>  
+                ook de rest verkennen maak<br>
+                dan een account aan!</p>
+        </article> 
+
+>>>>>>> main:index.php
     </main>
 
     <footer>
