@@ -36,9 +36,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                 </article>
             </div>
         </section> 
-
-      
-                        <!--Fibonacci start-->
+ 
         <section class="blok">
             <article class="lamp">
                 <img src="Images/lamp.png">
@@ -60,17 +58,9 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                 <button id="btn-1" onclick="Fibonacci_genereren()">Genereer</button><br><br>
                 <article id="fibonacci-output"></article>
             </article>
+        </section>    
 
-            
-
-        </section>
-
-                <!--fibonacci eind-->
-
-
-                <!--priemgetallen start-->
-
-                <section class="blok">
+        <section class="blok">
                     <article class="lamp">
                     <img src="Images/lamp.png">
                     </article>
@@ -83,7 +73,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                     <br><br>
                     Met deze generator vul je een getal in en krijg je het ingevoerde getal ontbonden in priemfactoren eruit.</p>
                     </article>
-                </section>
+        </section>
 
 
         <section class="formule">
@@ -98,7 +88,7 @@ if(!isset($_SESSION['ingelogd']) || $_SESSION['ingelogd'] != true) {
                 <div id="output"></div>           
             </article>
         </section>
-        <!--priemgetallen eind-->
+        
 
         <!--BANNER START-->
 
